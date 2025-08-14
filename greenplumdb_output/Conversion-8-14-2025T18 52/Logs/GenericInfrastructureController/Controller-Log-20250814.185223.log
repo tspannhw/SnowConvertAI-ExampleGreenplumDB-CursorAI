@@ -1,0 +1,44 @@
+[8/14/2025 6:52:23 PM] A: Session id: 85141c89-454c-4332-ac2a-5a045f33db04
+[8/14/2025 6:52:23 PM] A: Code Processor information: Name :SnowConvert, Version: 1.16.1.0
+[8/14/2025 6:52:23 PM] a: Starting to install license with key that ends with: b264
+[8/14/2025 6:52:23 PM] a: License installation result: Success
+[8/14/2025 6:52:23 PM] a: Starting to validate parameters
+[8/14/2025 6:52:23 PM] a: Parameters to validate: 
+	Execution mode: Conversion
+	Encoding: 65001
+	TargetLag: 1 days
+	Warehouse: UPDATE_DUMMY_WAREHOUSE
+	ConversionRateMode: LoC
+	ProjectName: greenplumcursorai
+	ConnectionMappingsFilePath: /var/folders/r0/v5b3ymjx2kj9nf26pmtv2rcr0000gn/T/snowconvert-connection-mappings/e135ea7e-524d-426f-a109-160da9ac0074/connection-mappings.csv
+[8/14/2025 6:52:23 PM] a: Validation of parameters: Success
+[8/14/2025 6:52:23 PM] A: Getting code descriptor
+[8/14/2025 6:52:23 PM] A: Code descriptor information
+	Units: 5782
+	Units type: LOC
+	All file bytes: 269991
+	All found extensions: .sql
+[8/14/2025 6:52:23 PM] A: Calculating fingerprint
+[8/14/2025 6:52:23 PM] A: Fingerprint information Fingerprint(size=269991,projects=1)
+[8/14/2025 6:52:23 PM] a: Starting to validate active license
+[8/14/2025 6:52:23 PM] a: Active license validation: Success
+[8/14/2025 6:52:23 PM] A: License information
+	License key ends with: b264
+	Start date: 2025/08/01
+	Expiration date: 2025/11/01
+	Execution mode: Conversion
+	Unit type: Lines of Code
+	Created by: tim.spann@snowflake.com
+	Remaining activations: -2
+	Products: SnowConvert
+[8/14/2025 6:52:23 PM] A: Getting license
+[8/14/2025 6:52:23 PM] A: License information
+	Status: Successful
+[8/14/2025 6:52:24 PM] A: Starting the execution of the controller
+[8/14/2025 6:52:24 PM] A: Executing the worker: SnowConvert
+[8/14/2025 6:52:32 PM] A: Finished executing the worker: SnowConvert
+[8/14/2025 6:52:32 PM] A: Executing the worker: GenericScanner
+[8/14/2025 6:52:32 PM] A: Finished executing the worker: GenericScanner
+[8/14/2025 6:52:33 PM] a: Controller execution ended
+[8/14/2025 6:52:33 PM] a: Starting to upload the Assessment results
+[8/14/2025 6:52:34 PM] a: A assessment upload

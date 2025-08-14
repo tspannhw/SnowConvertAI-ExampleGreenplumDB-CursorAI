@@ -1,0 +1,39 @@
+PartitionKey,FileName,Caller_CodeUnit,Caller_CodeUnit_Database,Caller_CodeUnit_Schema,Caller_CodeUnit_Name,Caller_CodeUnit_FullName,Referenced_Element_Database,Referenced_Element_Schema,Referenced_Element_Name,Referenced_Element_FullName,Line,Relation_Type
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE VIEW,N/A,analytics,table_count_verification,analytics.table_count_verification,N/A,N/A,pg_tables,pg_tables,737,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)","core.create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)",N/A,N/A,crypt,crypt,33,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)","core.create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)",N/A,N/A,gen_salt,gen_salt,33,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,transaction_analysis,analytics.transaction_analysis,N/A,N/A,DATE_TRUNC,DATE_TRUNC,74,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,transaction_analysis,analytics.transaction_analysis,N/A,N/A,DATE_TRUNC,DATE_TRUNC,86,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,N/A,N/A,DATE_TRUNC,DATE_TRUNC,173,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,N/A,N/A,DATE_TRUNC,DATE_TRUNC,190,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,aml_alerts_dashboard,compliance.aml_alerts_dashboard,N/A,N/A,DATE_TRUNC,DATE_TRUNC,240,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,aml_alerts_dashboard,compliance.aml_alerts_dashboard,N/A,N/A,DATE_TRUNC,DATE_TRUNC,254,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,profitability_analysis,analytics.profitability_analysis,N/A,N/A,DATE_TRUNC,DATE_TRUNC,286,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,profitability_analysis,analytics.profitability_analysis,N/A,N/A,DATE_TRUNC,DATE_TRUNC,297,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,product_performance_summary,analytics.product_performance_summary,N/A,N/A,DATE_TRUNC,DATE_TRUNC,335,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,transaction_monitoring,compliance.transaction_monitoring,N/A,N/A,DATE_TRUNC,DATE_TRUNC,397,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,transaction_monitoring,compliance.transaction_monitoring,N/A,N/A,DATE_TRUNC,DATE_TRUNC,410,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,origination_pipeline,loans.origination_pipeline,N/A,N/A,DATE_TRUNC,DATE_TRUNC,438,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,origination_pipeline,loans.origination_pipeline,N/A,N/A,DATE_TRUNC,DATE_TRUNC,454,SELECT - GROUP BY
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,N/A,N/A,DATE_TRUNC,DATE_TRUNC,468,SELECT - WHERE
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,N/A,N/A,DATE_TRUNC,DATE_TRUNC,481,SELECT - WHERE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,verify_installation,core.verify_installation,N/A,N/A,pg_indexes,pg_indexes,42,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,core,customers_customer_id_seq,core.customers_customer_id_seq,151,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,core,accounts_account_id_seq,core.accounts_account_id_seq,152,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,core,transactions_transaction_id_seq,core.transactions_transaction_id_seq,153,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,loans,loan_applications_application_id_seq,loans.loan_applications_application_id_seq,154,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,loans,loans_loan_id_seq,loans.loans_loan_id_seq,155,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,trading,portfolios_portfolio_id_seq,trading.portfolios_portfolio_id_seq,156,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,trading,orders_order_id_seq,trading.orders_order_id_seq,157,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,N/A,trading,trades_trade_id_seq,trading.trades_trade_id_seq,158,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,audit,log_performance_metrics,audit.log_performance_metrics,N/A,N/A,pg_stat_activity,pg_stat_activity,184,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,audit,security_audit,audit.security_audit,N/A,N/A,pg_user,pg_user,206,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,health_check,core.health_check,N/A,N/A,pg_stat_activity,pg_stat_activity,260,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,health_check,core.health_check,N/A,N/A,version,version,271,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,N/A,N/A,crypt,crypt,262,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,N/A,N/A,gen_salt,gen_salt,262,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,N/A,N/A,md5,md5,263,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,N/A,N/A,crypt,crypt,269,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,N/A,N/A,gen_salt,gen_salt,269,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,14_csv_export_scripts.sql,CREATE FUNCTION,N/A,analytics,get_table_statistics,analytics.get_table_statistics,N/A,N/A,pg_class,pg_class,267,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,14_csv_export_scripts.sql,CREATE FUNCTION,N/A,analytics,get_table_statistics,analytics.get_table_statistics,N/A,N/A,pg_namespace,pg_namespace,268,SELECT - JOIN

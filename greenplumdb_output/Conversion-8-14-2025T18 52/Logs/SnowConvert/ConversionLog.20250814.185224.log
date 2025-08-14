@@ -1,0 +1,232 @@
+[8/14/2025 6:52:24 PM] Info: SourceLanguage set to Greenplum based on the appsettings configuration.
+[8/14/2025 6:52:25 PM] Info: No path specified for loading additional transformation rules
+[8/14/2025 6:52:25 PM] Info: Starting to analyze the input path '/Users/tspann/Downloads/code/cursorai/greenplumdatabase'...
+[8/14/2025 6:52:28 PM] Info: EFProcess 638907943480131400 started
+[8/14/2025 6:52:28 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:28 PM] Debug: TaskParam ConversionBeginTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:28 PM] Debug: TaskParam workingSet = Value is not created.
+[8/14/2025 6:52:28 PM] Debug: TaskParam ConversionBeginTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:28 PM] Debug: TaskParam ConversionBeginTask.Enabled = True
+[8/14/2025 6:52:28 PM] Debug: TaskParam Repository = Value is not created.
+[8/14/2025 6:52:28 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:28 PM] Info: Found 14 Sql files with a total size of 0.26MB
+[8/14/2025 6:52:28 PM] Info: Starting the parsing process of 14 files with 0.26MB of code, this might take a while...
+[8/14/2025 6:52:28 PM] Info: Step 1/8 - Loading Code: STARTED
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/05_loan_credit_tables.sql
+[8/14/2025 6:52:28 PM] Error: 05_loan_credit_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/07_remaining_tables.sql
+[8/14/2025 6:52:28 PM] Error: 07_remaining_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There are 5 parsing errors in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/12_deployment_setup.sql
+[8/14/2025 6:52:28 PM] Error: 12_deployment_setup.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: 12_deployment_setup.sql(286, 17): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '286' COLUMN '17' OF THE SOURCE CODE STARTING AT '$$'. EXPECTED 'Routine Body' GRAMMAR. LAST MATCHING TOKEN WAS 'VACUUM' ON LINE '316' COLUMN '5'. ** 
+[8/14/2025 6:52:28 PM] Error: 12_deployment_setup.sql(325, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '325' COLUMN '1' OF THE SOURCE CODE STARTING AT '$$'. EXPECTED 'Routine Characteristics' GRAMMAR. LAST MATCHING TOKEN WAS 'VACUUM' ON LINE '316' COLUMN '5'. FAILED TOKEN WAS '$$' ON LINE '325' COLUMN '1'. ** 
+[8/14/2025 6:52:28 PM] Error: 12_deployment_setup.sql(330, 100): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '330' COLUMN '100' OF THE SOURCE CODE STARTING AT ''); SELECT cron.schedule(''. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '330' COLUMN '99'. ** 
+[8/14/2025 6:52:28 PM] Error: 12_deployment_setup.sql(331, 81): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '331' COLUMN '81' OF THE SOURCE CODE STARTING AT ''); */  -- Grant permissions GRANT USAGE ON SCHEMA core TO public; GRANT SELECT ON ALL TABLES IN SCHEMA core TO public; GRANT USAGE ON SCHEMA analytics TO public; GRANT SELECT ON ALL TABLES IN SCHEMA analytics TO public;  -- Create application user roles CREATE ROLE financial_app_read; GRANT CONNECT ON DATABASE financial_system TO financial_app_read; GRANT USAGE ON SCHEMA core, trading, loans, analytics TO financial_app_read; GRANT SELECT ON ALL TABLES IN SCHEMA core, trading, loans, analytics TO financial_app_read;  CREATE ROLE financial_app_write; GRANT financial_app_read TO financial_app_write; GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA core, trading, loans TO financial_app_write; GRANT USAGE ON ALL SEQUENCES IN SCHEMA core, trading, loans TO financial_app_write;  CREATE ROLE financial_app_admin; GRANT financial_app_write TO financial_app_admin; GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA core, trading, loans, risk, compliance, analytics, payment, cards, treasury, audit TO financial_app_admin; GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA core, trading, loans, risk, compliance, analytics, payment, cards, treasury, audit TO financial_app_admin;  -- Final installation summary SELECT core.verify_installation();  COMMENT ON FUNCTION core.verify_installation IS ''. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '331' COLUMN '80'. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/03_trading_tables.sql
+[8/14/2025 6:52:28 PM] Error: 03_trading_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/14_csv_export_scripts.sql
+[8/14/2025 6:52:28 PM] Error: 14_csv_export_scripts.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/02_core_tables.sql
+[8/14/2025 6:52:28 PM] Error: 02_core_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There are 4 parsing errors in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/01_create_database.sql
+[8/14/2025 6:52:28 PM] Error: 01_create_database.sql(5, 0): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '5' COLUMN '0' OF THE SOURCE CODE STARTING AT 'DROP'. EXPECTED 'Drop Statement' GRAMMAR. LAST MATCHING TOKEN WAS 'DROP' ON LINE '5' COLUMN '0'. FAILED TOKEN WAS 'DATABASE' ON LINE '5' COLUMN '5'. ** 
+[8/14/2025 6:52:28 PM] Error: 01_create_database.sql(9, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '9' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '6' COLUMN '32'. ** 
+[8/14/2025 6:52:28 PM] Error: 01_create_database.sql(27, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '27' COLUMN '1' OF THE SOURCE CODE STARTING AT 'CREATE'. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '24' COLUMN '109'. ** 
+[8/14/2025 6:52:28 PM] Error: 01_create_database.sql(28, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '28' COLUMN '1' OF THE SOURCE CODE STARTING AT 'CREATE'. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '27' COLUMN '43'. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/08_stored_procedures.sql
+[8/14/2025 6:52:28 PM] Error: 08_stored_procedures.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There are 2 parsing errors in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/13_generate_bulk_data.sql
+[8/14/2025 6:52:28 PM] Error: 13_generate_bulk_data.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: 13_generate_bulk_data.sql(477, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '477' COLUMN '1' OF THE SOURCE CODE STARTING AT 'COMMENT'. EXPECTED 'STATEMENT' GRAMMAR. LAST MATCHING TOKEN WAS ';' ON LINE '475' COLUMN '63'. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/06_analytics_payment_tables.sql
+[8/14/2025 6:52:28 PM] Error: 06_analytics_payment_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/10_indexes_constraints.sql
+[8/14/2025 6:52:28 PM] Error: 10_indexes_constraints.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/04_risk_compliance_tables.sql
+[8/14/2025 6:52:28 PM] Error: 04_risk_compliance_tables.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/11_sample_data.sql
+[8/14/2025 6:52:28 PM] Error: 11_sample_data.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Error: There is 1 parsing error in the file /Users/tspann/Downloads/code/cursorai/greenplumdatabase/09_views.sql
+[8/14/2025 6:52:28 PM] Error: 09_views.sql(4, 1): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '4' COLUMN '1' OF THE SOURCE CODE STARTING AT '\'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/14/2025 6:52:28 PM] Info: Step 1/8 - Loading Code: COMPLETED
+[8/14/2025 6:52:28 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:28 PM] Debug: TaskParam SymbolTableFillingTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:28 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:28 PM] Debug: TaskParam SymbolTableFillingTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:28 PM] Debug: TaskParam SymbolTableFillingTask.Enabled = True
+[8/14/2025 6:52:28 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:28 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:28 PM] Info: Step 2/8 - Semantic Analysis of Tables: STARTED
+[8/14/2025 6:52:29 PM] Info: Step 2/8 - Semantic Analysis of Tables: COMPLETED
+[8/14/2025 6:52:29 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:29 PM] Debug: TaskParam SymbolTableFillingSecondTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:29 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:29 PM] Debug: TaskParam SymbolTableFillingSecondTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:29 PM] Debug: TaskParam SymbolTableFillingSecondTask.Enabled = True
+[8/14/2025 6:52:29 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:29 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:29 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STARTED
+[8/14/2025 6:52:30 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORING
+[8/14/2025 6:52:30 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORED
+[8/14/2025 6:52:30 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: COMPLETED
+[8/14/2025 6:52:30 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreProcessTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:30 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreProcessTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreProcessTask.Enabled = True
+[8/14/2025 6:52:30 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:30 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:30 PM] Info: Step 4/8 - Pre-Processing: STARTED
+[8/14/2025 6:52:30 PM] Info: Step 4/8 - Pre-Processing: COMPLETED
+[8/14/2025 6:52:30 PM] Debug: TaskParam Lineage.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:30 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:30 PM] Debug: TaskParam Lineage.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:30 PM] Debug: TaskParam Lineage.Enabled = True
+[8/14/2025 6:52:30 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:30 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:30 PM] Info: Step 5/8 - Data lineage analysis: STARTED
+[8/14/2025 6:52:30 PM] Info: Step 5/8 - Data lineage analysis: COMPLETED
+[8/14/2025 6:52:30 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreConversionAssessmentTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:30 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreConversionAssessmentTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:30 PM] Debug: TaskParam PreConversionAssessmentTask.Enabled = True
+[8/14/2025 6:52:30 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:30 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:30 PM] Info: Step 6/8 - Pre-Conversion Assessment: STARTED
+[8/14/2025 6:52:30 PM] Info: Step 6/8 - Pre-Conversion Assessment: COMPLETED
+[8/14/2025 6:52:30 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/14/2025 6:52:30 PM] Debug: TaskParam TransformationsTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:30 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:30 PM] Debug: TaskParam TransformationsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:30 PM] Debug: TaskParam TransformationsTask.Enabled = True
+[8/14/2025 6:52:30 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:30 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:30 PM] Info: Step 7/8 - Conversion Execution: STARTED
+[8/14/2025 6:52:30 PM] Info: Start transforming file 12_deployment_setup.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 07_remaining_tables.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 01_create_database.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 09_views.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 11_sample_data.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 06_analytics_payment_tables.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 02_core_tables.sql
+[8/14/2025 6:52:30 PM] Info: Start transforming file 04_risk_compliance_tables.sql
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on audit.audit_trails that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on audit.error_logs that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on audit.user_sessions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on analytics.customer_analytics that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on analytics.product_performance that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on analytics.kpi_values that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on analytics.report_executions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on compliance.aml_alerts that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on compliance.kyc_documents that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on compliance.sanctions_screening that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on compliance.compliance_monitoring that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on risk.risk_measurements that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on risk.risk_limit_breaches that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on risk.stress_test_results that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on risk.credit_ratings that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on cards.card_transactions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on cards.card_rewards that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on cards.cards that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on payment.wire_transfers that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on payment.ach_transactions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on payment.payment_instructions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.order_executions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.trades that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.orders that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.holdings that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.portfolios that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.market_data that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on trading.real_time_quotes that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_payments that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_schedules that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_collateral that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_guarantors that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_modifications that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.delinquency_tracking that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.charge_offs that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.recovery_tracking that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_provisions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.escrow_transactions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.escrow_accounts that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loans that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.loan_applications that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on loans.credit_scores that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.transactions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.gl_transaction_details that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.gl_transactions that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.transaction_legs that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.accounts that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.customer_addresses that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.customer_products that do not share file with it
+[8/14/2025 6:52:30 PM] Info: There are one or more nodes depending on core.customers that do not share file with it
+[8/14/2025 6:52:31 PM] Info: Transformed file 01_create_database.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 03_trading_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 11_sample_data.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 12_deployment_setup.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 04_risk_compliance_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 06_analytics_payment_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 02_core_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 07_remaining_tables.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 05_loan_credit_tables.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 13_generate_bulk_data.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 08_stored_procedures.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 10_indexes_constraints.sql
+[8/14/2025 6:52:31 PM] Info: Start transforming file 14_csv_export_scripts.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 03_trading_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 05_loan_credit_tables.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 14_csv_export_scripts.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 10_indexes_constraints.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 08_stored_procedures.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 09_views.sql
+[8/14/2025 6:52:31 PM] Info: Transformed file 13_generate_bulk_data.sql
+[8/14/2025 6:52:31 PM] Info: Step 7/8 - Conversion Execution: COMPLETED
+[8/14/2025 6:52:31 PM] Debug: TaskParam SnowScript = False
+[8/14/2025 6:52:31 PM] Debug: TaskParam reportPath = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/Reports/SnowConvert
+[8/14/2025 6:52:31 PM] Debug: TaskParam totalProcessedLOC = 0
+[8/14/2025 6:52:31 PM] Debug: TaskParam inputPath = /Users/tspann/Downloads/code/cursorai/greenplumdatabase
+[8/14/2025 6:52:31 PM] Debug: TaskParam outputPath = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/Output/SnowConvert
+[8/14/2025 6:52:31 PM] Debug: TaskParam SessionTimestamp = 20250814.185224
+[8/14/2025 6:52:31 PM] Debug: TaskParam snowConfiguration = Mobilize.Snow.Configuration.SnowConfiguration
+[8/14/2025 6:52:31 PM] Debug: TaskParam DashboardMode = False
+[8/14/2025 6:52:31 PM] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[8/14/2025 6:52:31 PM] Debug: TaskParam snowExecutionResult = Mobilize.Snow.Assessment.SnowExecutionResult
+[8/14/2025 6:52:31 PM] Debug: TaskParam ConversionEndTask.Input = /Users/tspann/Downloads/code/cursorai/greenplumdatabase/input.wsp
+[8/14/2025 6:52:31 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[8/14/2025 6:52:31 PM] Debug: TaskParam ConversionEndTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[8/14/2025 6:52:31 PM] Debug: TaskParam ConversionEndTask.Enabled = True
+[8/14/2025 6:52:31 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/14/2025 6:52:31 PM] Debug: TaskParam RepositoryDirectory = /Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52/.mobilize/CommonEF
+[8/14/2025 6:52:31 PM] Info: EFProcess 638907943480131400 ended. Execution time: 00:00:03.5379812
+[8/14/2025 6:52:31 PM] Info: STARTED Step 8/8: Stats and Reports
+[8/14/2025 6:52:31 PM] Info: Writing the conversion summary report
+[8/14/2025 6:52:32 PM] Info: Writing the Assessment report
+[8/14/2025 6:52:32 PM] Info: Writing the Scope Validations report
+[8/14/2025 6:52:32 PM] Info: Writing the raw assessment data report
+[8/14/2025 6:52:32 PM] Info: Writing the Elements report
+[8/14/2025 6:52:32 PM] Info: Writing the ETL and BI repointing report
+[8/14/2025 6:52:32 PM] Info: Writing the Issues report
+[8/14/2025 6:52:32 PM] Info: Writing the missing objects report
+[8/14/2025 6:52:32 PM] Info: Writing the object references report
+[8/14/2025 6:52:32 PM] Info: Writing the top level code unit report
+[8/14/2025 6:52:32 PM] Info: Uploading metadata
+[8/14/2025 6:52:32 PM] Info: COMPLETED Step 8/8: Stats and Reports
+[8/14/2025 6:52:32 PM] Info: 
+==============================================================================
+SnowConvert assessment execution summary
+ - Files: 14
+ - Files Not Generated: 0
+ - Total lines of code: 5778
+ - Automatically converted: 89.08%
+ - Conversion time: 00:00:03
+ - Conversion speed: 1565 lines of code per second
+See the report files for more details about the conversion status.
+==============================================================================
+
+[8/14/2025 6:52:32 PM] Info: 
+==============================================================================
+SnowConvert Tool.
+Copyright © 2023-2025 Snowflake Inc. All rights reserved.
+==============================================================================
+

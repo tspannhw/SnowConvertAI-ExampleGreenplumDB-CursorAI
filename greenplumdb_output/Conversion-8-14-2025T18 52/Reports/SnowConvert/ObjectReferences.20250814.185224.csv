@@ -1,0 +1,799 @@
+PartitionKey,FileName,Caller_CodeUnit,Caller_CodeUnit_Database,Caller_CodeUnit_Schema,Caller_CodeUnit_Name,Caller_CodeUnit_FullName,Referenced_Element_Type,Referenced_Element_Database,Referenced_Element_Schema,Referenced_Element_Name,Referenced_Element_FullName,Line,Relation_Type
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,states,core.states,CREATE TABLE,N/A,core,countries,core.countries,22,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,cities,core.cities,CREATE TABLE,N/A,core,states,core.states,32,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,exchange_rates,core.exchange_rates,CREATE TABLE,N/A,core,currencies,core.currencies,52,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,exchange_rates,core.exchange_rates,CREATE TABLE,N/A,core,currencies,core.currencies,53,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customers,core.customers,CREATE TABLE,N/A,core,customer_types,core.customer_types,82,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customers,core.customers,CREATE TABLE,N/A,core,customer_status,core.customer_status,83,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,CREATE TABLE,N/A,core,customers,core.customers,106,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,CREATE TABLE,N/A,core,cities,core.cities,110,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,branches,core.branches,CREATE TABLE,N/A,core,cities,core.cities,125,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,customers,core.customers,163,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,account_types,core.account_types,164,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,branches,core.branches,165,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,account_status,core.account_status,166,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,currencies,core.currencies,167,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,account_joint_holders,core.account_joint_holders,CREATE TABLE,N/A,core,accounts,core.accounts,183,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,account_joint_holders,core.account_joint_holders,CREATE TABLE,N/A,core,customers,core.customers,184,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transactions,core.transactions,CREATE TABLE,N/A,core,accounts,core.accounts,218,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transactions,core.transactions,CREATE TABLE,N/A,core,transaction_types,core.transaction_types,219,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transactions,core.transactions,CREATE TABLE,N/A,core,transaction_status,core.transaction_status,220,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transactions,core.transactions,CREATE TABLE,N/A,core,currencies,core.currencies,222,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transaction_legs,core.transaction_legs,CREATE TABLE,N/A,core,transactions,core.transactions,243,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transaction_legs,core.transaction_legs,CREATE TABLE,N/A,core,accounts,core.accounts,244,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,transaction_legs,core.transaction_legs,CREATE TABLE,N/A,core,currencies,core.currencies,247,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,258,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,CREATE TABLE,N/A,core,gl_transactions,core.gl_transactions,285,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,286,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,product_categories,core.product_categories,CREATE TABLE,N/A,core,product_categories,core.product_categories,300,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,products,core.products,CREATE TABLE,N/A,core,product_categories,core.product_categories,310,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customer_products,core.customer_products,CREATE TABLE,N/A,core,customers,core.customers,326,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customer_products,core.customer_products,CREATE TABLE,N/A,core,products,core.products,327,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,customer_products,core.customer_products,CREATE TABLE,N/A,core,accounts,core.accounts,328,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,employees,core.employees,CREATE TABLE,N/A,core,branches,core.branches,345,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,02_core_tables.sql,CREATE TABLE,N/A,core,employees,core.employees,CREATE TABLE,N/A,core,employees,core.employees,348,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,CREATE TABLE,N/A,core,countries,core.countries,23,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,CREATE TABLE,N/A,core,currencies,core.currencies,27,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,securities,trading.securities,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,47,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,securities,trading.securities,CREATE TABLE,N/A,trading,security_types,trading.security_types,48,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,securities,trading.securities,CREATE TABLE,N/A,core,currencies,core.currencies,53,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,securities,trading.securities,CREATE TABLE,N/A,core,countries,core.countries,54,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,market_data,trading.market_data,CREATE TABLE,N/A,trading,securities,trading.securities,72,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,real_time_quotes,trading.real_time_quotes,CREATE TABLE,N/A,trading,securities,trading.securities,89,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,real_time_quotes,trading.real_time_quotes,CREATE TABLE,N/A,trading,market_data_providers,trading.market_data_providers,98,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,CREATE TABLE,N/A,core,customers,core.customers,106,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,CREATE TABLE,N/A,core,currencies,core.currencies,108,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,CREATE TABLE,N/A,core,customers,core.customers,123,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,124,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,CREATE TABLE,N/A,core,employees,core.employees,125,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,CREATE TABLE,N/A,core,currencies,core.currencies,130,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,holdings,trading.holdings,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,143,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,holdings,trading.holdings,CREATE TABLE,N/A,trading,securities,trading.securities,144,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,178,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,trading,securities,trading.securities,179,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,trading,order_types,trading.order_types,180,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,trading,order_status,trading.order_status,181,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,core,employees,core.employees,194,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,core,employees,core.employees,195,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,order_executions,trading.order_executions,CREATE TABLE,N/A,trading,orders,trading.orders,204,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trades,trading.trades,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,220,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trades,trading.trades,CREATE TABLE,N/A,trading,securities,trading.securities,221,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trades,trading.trades,CREATE TABLE,N/A,trading,orders,trading.orders,222,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trades,trading.trades,CREATE TABLE,N/A,core,currencies,core.currencies,233,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,trades,trading.trades,CREATE TABLE,N/A,core,employees,core.employees,236,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,corporate_actions,trading.corporate_actions,CREATE TABLE,N/A,trading,securities,trading.securities,256,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,corporate_actions,trading.corporate_actions,CREATE TABLE,N/A,trading,corporate_action_types,trading.corporate_action_types,257,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,watchlists,trading.watchlists,CREATE TABLE,N/A,core,customers,core.customers,273,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,watchlist_securities,trading.watchlist_securities,CREATE TABLE,N/A,trading,watchlists,trading.watchlists,283,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,watchlist_securities,trading.watchlist_securities,CREATE TABLE,N/A,trading,securities,trading.securities,284,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,margin_requirements,trading.margin_requirements,CREATE TABLE,N/A,trading,securities,trading.securities,293,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,position_valuations,trading.position_valuations,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,306,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,position_valuations,trading.position_valuations,CREATE TABLE,N/A,trading,securities,trading.securities,307,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,position_valuations,trading.position_valuations,CREATE TABLE,N/A,core,currencies,core.currencies,313,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,investment_research,trading.investment_research,CREATE TABLE,N/A,trading,securities,trading.securities,321,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,investment_research,trading.investment_research,CREATE TABLE,N/A,core,employees,core.employees,322,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,broker_dealers,trading.broker_dealers,CREATE TABLE,N/A,core,cities,core.cities,341,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,prime_brokerage,trading.prime_brokerage,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,353,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,prime_brokerage,trading.prime_brokerage,CREATE TABLE,N/A,trading,broker_dealers,trading.broker_dealers,354,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,options,trading.options,CREATE TABLE,N/A,trading,securities,trading.securities,366,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,options,trading.options,CREATE TABLE,N/A,core,currencies,core.currencies,373,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,futures,trading.futures,CREATE TABLE,N/A,core,currencies,core.currencies,387,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,03_trading_tables.sql,CREATE TABLE,N/A,trading,futures,trading.futures,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,388,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_categories,risk.risk_categories,CREATE TABLE,N/A,risk,risk_categories,risk.risk_categories,14,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,CREATE TABLE,N/A,risk,risk_categories,risk.risk_categories,24,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_models,risk.risk_models,CREATE TABLE,N/A,core,employees,core.employees,43,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_models,risk.risk_models,CREATE TABLE,N/A,core,employees,core.employees,44,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,57,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,CREATE TABLE,N/A,core,currencies,core.currencies,60,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,CREATE TABLE,N/A,core,employees,core.employees,63,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,73,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,CREATE TABLE,N/A,risk,risk_models,risk.risk_models,74,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,CREATE TABLE,N/A,core,currencies,core.currencies,77,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,CREATE TABLE,N/A,core,employees,core.employees,80,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,88,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,89,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,CREATE TABLE,N/A,core,employees,core.employees,98,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_scenarios,risk.stress_test_scenarios,CREATE TABLE,N/A,core,employees,core.employees,112,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_scenarios,risk.stress_test_scenarios,CREATE TABLE,N/A,core,employees,core.employees,113,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,CREATE TABLE,N/A,risk,stress_test_scenarios,risk.stress_test_scenarios,121,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,122,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,CREATE TABLE,N/A,core,currencies,core.currencies,128,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,CREATE TABLE,N/A,core,employees,core.employees,129,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,counterparty_risk,risk.counterparty_risk,CREATE TABLE,N/A,core,currencies,core.currencies,161,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,regulatory_authorities,compliance.regulatory_authorities,CREATE TABLE,N/A,core,countries,core.countries,176,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,regulations,compliance.regulations,CREATE TABLE,N/A,compliance,regulatory_authorities,compliance.regulatory_authorities,188,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,compliance_requirements,compliance.compliance_requirements,CREATE TABLE,N/A,compliance,regulations,compliance.regulations,201,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,CREATE TABLE,N/A,compliance,compliance_requirements,compliance.compliance_requirements,216,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,CREATE TABLE,N/A,core,employees,core.employees,226,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,CREATE TABLE,N/A,core,employees,core.employees,227,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,customers,core.customers,234,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,accounts,core.accounts,235,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,transactions,core.transactions,236,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,currencies,core.currencies,242,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,employees,core.employees,247,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,CREATE TABLE,N/A,core,employees,core.employees,251,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,CREATE TABLE,N/A,core,customers,core.customers,258,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,CREATE TABLE,N/A,core,employees,core.employees,266,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,sanctions_lists,compliance.sanctions_lists,CREATE TABLE,N/A,compliance,regulatory_authorities,compliance.regulatory_authorities,278,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,CREATE TABLE,N/A,compliance,sanctions_lists,compliance.sanctions_lists,289,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,314,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,CREATE TABLE,N/A,core,employees,core.employees,317,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,regulatory_reports,compliance.regulatory_reports,CREATE TABLE,N/A,compliance,regulations,compliance.regulations,326,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,regulatory_reports,compliance.regulatory_reports,CREATE TABLE,N/A,core,employees,core.employees,336,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,market_abuse_monitoring,compliance.market_abuse_monitoring,CREATE TABLE,N/A,trading,securities,trading.securities,344,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,market_abuse_monitoring,compliance.market_abuse_monitoring,CREATE TABLE,N/A,core,customers,core.customers,345,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,market_abuse_monitoring,compliance.market_abuse_monitoring,CREATE TABLE,N/A,core,employees,core.employees,346,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,market_abuse_monitoring,compliance.market_abuse_monitoring,CREATE TABLE,N/A,core,currencies,core.currencies,352,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,market_abuse_monitoring,compliance.market_abuse_monitoring,CREATE TABLE,N/A,core,employees,core.employees,355,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,compliance,trade_surveillance_rules,compliance.trade_surveillance_rules,CREATE TABLE,N/A,core,employees,core.employees,373,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,operational_risk_events,risk.operational_risk_events,CREATE TABLE,N/A,core,currencies,core.currencies,391,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,operational_risk_events,risk.operational_risk_events,CREATE TABLE,N/A,core,employees,core.employees,396,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,operational_risk_events,risk.operational_risk_events,CREATE TABLE,N/A,core,employees,core.employees,397,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,capital_adequacy,risk.capital_adequacy,CREATE TABLE,N/A,core,currencies,core.currencies,431,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,capital_adequacy,risk.capital_adequacy,CREATE TABLE,N/A,core,employees,core.employees,432,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,04_risk_compliance_tables.sql,CREATE TABLE,N/A,risk,capital_adequacy,risk.capital_adequacy,CREATE TABLE,N/A,core,employees,core.employees,433,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,CREATE TABLE,N/A,core,customers,core.customers,39,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,40,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,CREATE TABLE,N/A,core,employees,core.employees,53,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,CREATE TABLE,N/A,core,employees,core.employees,54,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,CREATE TABLE,N/A,core,branches,core.branches,55,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_application_documents,loans.loan_application_documents,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,64,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_application_documents,loans.loan_application_documents,CREATE TABLE,N/A,core,employees,core.employees,73,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scoring_models,loans.credit_scoring_models,CREATE TABLE,N/A,core,employees,core.employees,91,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scoring_models,loans.credit_scoring_models,CREATE TABLE,N/A,core,employees,core.employees,92,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,CREATE TABLE,N/A,core,customers,core.customers,103,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,104,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,CREATE TABLE,N/A,loans,credit_scoring_models,loans.credit_scoring_models,105,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,CREATE TABLE,N/A,core,employees,core.employees,112,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,underwriting_criteria,loans.underwriting_criteria,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,120,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,underwriting_decisions,loans.underwriting_decisions,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,136,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,underwriting_decisions,loans.underwriting_decisions,CREATE TABLE,N/A,core,employees,core.employees,137,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,underwriting_decisions,loans.underwriting_decisions,CREATE TABLE,N/A,core,employees,core.employees,151,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,160,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,customers,core.customers,161,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,162,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,accounts,core.accounts,163,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,employees,core.employees,184,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,employees,core.employees,185,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,branches,core.branches,186,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,CREATE TABLE,N/A,loans,loans,loans.loans,194,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,CREATE TABLE,N/A,core,employees,core.employees,206,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,CREATE TABLE,N/A,core,transactions,core.transactions,207,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_schedules,loans.loan_schedules,CREATE TABLE,N/A,loans,loans,loans.loans,214,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,CREATE TABLE,N/A,loans,loans,loans.loans,244,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,CREATE TABLE,N/A,loans,collateral_types,loans.collateral_types,245,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_guarantors,loans.loan_guarantors,CREATE TABLE,N/A,loans,loans,loans.loans,264,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_guarantors,loans.loan_guarantors,CREATE TABLE,N/A,core,customers,core.customers,265,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_modifications,loans.loan_modifications,CREATE TABLE,N/A,loans,loans,loans.loans,279,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_modifications,loans.loan_modifications,CREATE TABLE,N/A,core,employees,core.employees,292,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,delinquency_tracking,loans.delinquency_tracking,CREATE TABLE,N/A,loans,loans,loans.loans,301,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,delinquency_tracking,loans.delinquency_tracking,CREATE TABLE,N/A,core,employees,core.employees,314,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,charge_offs,loans.charge_offs,CREATE TABLE,N/A,loans,loans,loans.loans,323,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,charge_offs,loans.charge_offs,CREATE TABLE,N/A,core,employees,core.employees,331,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,charge_offs,loans.charge_offs,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,332,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,recovery_tracking,loans.recovery_tracking,CREATE TABLE,N/A,loans,charge_offs,loans.charge_offs,340,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,recovery_tracking,loans.recovery_tracking,CREATE TABLE,N/A,core,employees,core.employees,349,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_provisions,loans.loan_provisions,CREATE TABLE,N/A,loans,loans,loans.loans,356,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_provisions,loans.loan_provisions,CREATE TABLE,N/A,core,employees,core.employees,366,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_provisions,loans.loan_provisions,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,367,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_pricing,loans.loan_pricing,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,391,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,servicing_rights,loans.servicing_rights,CREATE TABLE,N/A,loans,loans,loans.loans,413,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,escrow_accounts,loans.escrow_accounts,CREATE TABLE,N/A,loans,loans,loans.loans,429,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,escrow_accounts,loans.escrow_accounts,CREATE TABLE,N/A,core,accounts,core.accounts,430,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,escrow_transactions,loans.escrow_transactions,CREATE TABLE,N/A,loans,escrow_accounts,loans.escrow_accounts,446,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_performance_analytics,loans.loan_performance_analytics,CREATE TABLE,N/A,loans,loans,loans.loans,460,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,loan_performance_analytics,loans.loan_performance_analytics,CREATE TABLE,N/A,core,employees,core.employees,472,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_lines,loans.credit_lines,CREATE TABLE,N/A,core,customers,core.customers,480,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,05_loan_credit_tables.sql,CREATE TABLE,N/A,loans,credit_lines,loans.credit_lines,CREATE TABLE,N/A,core,accounts,core.accounts,481,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,reports,analytics.reports,CREATE TABLE,N/A,core,employees,core.employees,32,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,CREATE TABLE,N/A,analytics,reports,analytics.reports,42,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,CREATE TABLE,N/A,core,employees,core.employees,49,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,kpi_definitions,analytics.kpi_definitions,CREATE TABLE,N/A,core,employees,core.employees,66,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,CREATE TABLE,N/A,analytics,kpi_definitions,analytics.kpi_definitions,73,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,CREATE TABLE,N/A,core,employees,core.employees,80,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,CREATE TABLE,N/A,core,customers,core.customers,88,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,CREATE TABLE,N/A,core,products,core.products,108,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,core,customers,core.customers,160,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,core,accounts,core.accounts,161,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,payment,payment_methods,payment.payment_methods,162,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,payment,payment_processors,payment.payment_processors,163,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,core,currencies,core.currencies,166,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,CREATE TABLE,N/A,core,employees,core.employees,177,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,CREATE TABLE,N/A,core,customers,core.customers,185,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,CREATE TABLE,N/A,core,accounts,core.accounts,186,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,CREATE TABLE,N/A,core,currencies,core.currencies,189,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,CREATE TABLE,N/A,core,employees,core.employees,208,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,CREATE TABLE,N/A,core,employees,core.employees,209,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,CREATE TABLE,N/A,core,customers,core.customers,217,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,CREATE TABLE,N/A,core,accounts,core.accounts,218,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,cards,cards.cards,CREATE TABLE,N/A,core,customers,core.customers,260,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,cards,cards.cards,CREATE TABLE,N/A,core,accounts,core.accounts,261,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,cards,cards.cards,CREATE TABLE,N/A,cards,card_types,cards.card_types,262,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,cards,cards.cards,CREATE TABLE,N/A,cards,cards,cards.cards,275,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,CREATE TABLE,N/A,cards,cards,cards.cards,282,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,CREATE TABLE,N/A,core,currencies,core.currencies,285,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,CREATE TABLE,N/A,cards,cards,cards.cards,305,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,306,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,treasury,liquidity_management,treasury.liquidity_management,CREATE TABLE,N/A,core,employees,core.employees,333,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,treasury,funding_sources,treasury.funding_sources,CREATE TABLE,N/A,core,currencies,core.currencies,347,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,treasury,interest_rate_risk,treasury.interest_rate_risk,CREATE TABLE,N/A,core,employees,core.employees,368,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,CREATE TABLE,N/A,core,employees,core.employees,382,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,holidays,core.holidays,CREATE TABLE,N/A,core,countries,core.countries,395,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,system_parameters,core.system_parameters,CREATE TABLE,N/A,core,employees,core.employees,425,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,CREATE TABLE,N/A,core,employees,core.employees,438,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,CREATE TABLE,N/A,core,employees,core.employees,442,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,audit,user_sessions,audit.user_sessions,CREATE TABLE,N/A,core,employees,core.employees,449,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,fee_structures,core.fee_structures,CREATE TABLE,N/A,core,products,core.products,495,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,customer_communications,core.customer_communications,CREATE TABLE,N/A,core,customers,core.customers,514,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,customer_communications,core.customer_communications,CREATE TABLE,N/A,core,employees,core.employees,524,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,interest_calculations,core.interest_calculations,CREATE TABLE,N/A,core,accounts,core.accounts,532,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,06_analytics_payment_tables.sql,CREATE TABLE,N/A,core,interest_calculations,core.interest_calculations,CREATE TABLE,N/A,core,employees,core.employees,541,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,ib_deals,trading.ib_deals,CREATE TABLE,N/A,core,customers,core.customers,13,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,ib_deals,trading.ib_deals,CREATE TABLE,N/A,core,currencies,core.currencies,15,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,ib_deals,trading.ib_deals,CREATE TABLE,N/A,core,employees,core.employees,24,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,loans,syndicated_loans,loans.syndicated_loans,CREATE TABLE,N/A,loans,loans,loans.loans,32,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,derivatives,trading.derivatives,CREATE TABLE,N/A,trading,securities,trading.securities,54,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,derivatives,trading.derivatives,CREATE TABLE,N/A,core,currencies,core.currencies,57,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,derivatives,trading.derivatives,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,62,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,interest_rate_swaps,trading.interest_rate_swaps,CREATE TABLE,N/A,trading,derivatives,trading.derivatives,72,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_forwards,trading.fx_forwards,CREATE TABLE,N/A,trading,derivatives,trading.derivatives,92,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_forwards,trading.fx_forwards,CREATE TABLE,N/A,core,currencies,core.currencies,93,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_forwards,trading.fx_forwards,CREATE TABLE,N/A,core,currencies,core.currencies,94,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,commodity_trades,trading.commodity_trades,CREATE TABLE,N/A,core,employees,core.employees,120,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,regulatory_capital,risk.regulatory_capital,CREATE TABLE,N/A,core,employees,core.employees,144,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,regulatory_capital,risk.regulatory_capital,CREATE TABLE,N/A,core,employees,core.employees,145,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,stress_scenario_factors,risk.stress_scenario_factors,CREATE TABLE,N/A,risk,stress_test_scenarios,risk.stress_test_scenarios,153,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,stress_scenario_factors,risk.stress_scenario_factors,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,154,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,liquidity_ratios,risk.liquidity_ratios,CREATE TABLE,N/A,core,employees,core.employees,175,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,ecl_calculations,risk.ecl_calculations,CREATE TABLE,N/A,core,employees,core.employees,196,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,compliance,aml_rules,compliance.aml_rules,CREATE TABLE,N/A,core,employees,core.employees,215,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,compliance,customer_due_diligence,compliance.customer_due_diligence,CREATE TABLE,N/A,core,customers,core.customers,222,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,compliance,customer_due_diligence,compliance.customer_due_diligence,CREATE TABLE,N/A,core,employees,core.employees,236,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,compliance,customer_due_diligence,compliance.customer_due_diligence,CREATE TABLE,N/A,core,employees,core.employees,239,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,loans,trade_finance,loans.trade_finance,CREATE TABLE,N/A,core,customers,core.customers,248,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,loans,trade_finance,loans.trade_finance,CREATE TABLE,N/A,core,currencies,core.currencies,252,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,loans,trade_finance,loans.trade_finance,CREATE TABLE,N/A,core,employees,core.employees,267,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_positions,trading.fx_positions,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,274,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_positions,trading.fx_positions,CREATE TABLE,N/A,core,currencies,core.currencies,275,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,fx_positions,trading.fx_positions,CREATE TABLE,N/A,core,employees,core.employees,288,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,mutual_funds,trading.mutual_funds,CREATE TABLE,N/A,core,currencies,core.currencies,310,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,mutual_fund_transactions,trading.mutual_fund_transactions,CREATE TABLE,N/A,trading,mutual_funds,trading.mutual_funds,318,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,mutual_fund_transactions,trading.mutual_fund_transactions,CREATE TABLE,N/A,core,customers,core.customers,319,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,insurance_policies,core.insurance_policies,CREATE TABLE,N/A,core,customers,core.customers,362,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,insurance_policies,core.insurance_policies,CREATE TABLE,N/A,core,insurance_products,core.insurance_products,363,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,insurance_policies,core.insurance_policies,CREATE TABLE,N/A,core,branches,core.branches,379,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,pension_plans,core.pension_plans,CREATE TABLE,N/A,core,customers,core.customers,388,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,pension_plans,core.pension_plans,CREATE TABLE,N/A,core,customers,core.customers,389,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,wealth_management_accounts,trading.wealth_management_accounts,CREATE TABLE,N/A,core,customers,core.customers,406,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,wealth_management_accounts,trading.wealth_management_accounts,CREATE TABLE,N/A,core,employees,core.employees,407,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,audit,application_logs,audit.application_logs,CREATE TABLE,N/A,core,employees,core.employees,449,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,business_rules,core.business_rules,CREATE TABLE,N/A,core,employees,core.employees,486,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,business_rules,core.business_rules,CREATE TABLE,N/A,core,employees,core.employees,487,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,core,configuration_items,core.configuration_items,CREATE TABLE,N/A,core,employees,core.employees,505,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,loans,credit_scoring_variables,loans.credit_scoring_variables,CREATE TABLE,N/A,loans,credit_scoring_models,loans.credit_scoring_models,515,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,risk,market_risk_factors,risk.market_risk_factors,CREATE TABLE,N/A,core,currencies,core.currencies,532,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,analytics,economic_indicators,analytics.economic_indicators,CREATE TABLE,N/A,core,countries,core.countries,545,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,hedge_fund_strategies,trading.hedge_fund_strategies,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,565,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,hedge_fund_strategies,trading.hedge_fund_strategies,CREATE TABLE,N/A,core,employees,core.employees,566,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,bond_analytics,trading.bond_analytics,CREATE TABLE,N/A,trading,securities,trading.securities,647,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,algo_trading_strategies,trading.algo_trading_strategies,CREATE TABLE,N/A,core,employees,core.employees,689,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,algo_trading_strategies,trading.algo_trading_strategies,CREATE TABLE,N/A,core,employees,core.employees,690,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,robo_advisory,trading.robo_advisory,CREATE TABLE,N/A,core,customers,core.customers,697,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,07_remaining_tables.sql,CREATE TABLE,N/A,trading,crypto_holdings,trading.crypto_holdings,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,716,TABLE COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)","core.create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)",CREATE TABLE,N/A,core,customers,core.customers,28,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)","core.create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)",CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,37,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)","core.create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)",CREATE TABLE,N/A,core,accounts,core.accounts,64,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)","core.create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)",CREATE TABLE,N/A,core,gl_transactions,core.gl_transactions,74,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)","core.create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)",CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,81,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)","core.create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)",CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,88,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,accounts,core.accounts,119,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,transaction_types,core.transaction_types,123,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,transactions,core.transactions,141,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,accounts,core.accounts,150,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,accounts,core.accounts,154,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,accounts,core.accounts,178,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE TABLE,N/A,core,accounts,core.accounts,182,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",187,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,"transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",193,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"create_loan_application(INTEGER,INTEGER,DECIMAL,INTEGER,TEXT)","loans.create_loan_application(INTEGER,INTEGER,DECIMAL,INTEGER,TEXT)",CREATE TABLE,N/A,loans,loan_products,loans.loan_products,231,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"create_loan_application(INTEGER,INTEGER,DECIMAL,INTEGER,TEXT)","loans.create_loan_application(INTEGER,INTEGER,DECIMAL,INTEGER,TEXT)",CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,250,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,calculate_payment_schedule(INTEGER),loans.calculate_payment_schedule(INTEGER),CREATE TABLE,N/A,loans,loans,loans.loans,289,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)","loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",CREATE TABLE,N/A,loans,loans,loans.loans,338,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)","loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",CREATE TABLE,N/A,loans,loans,loans.loans,346,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)","loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,354,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)","loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",CREATE TABLE,N/A,loans,loans,loans.loans,363,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,loans,"process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)","loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",CREATE FUNCTION,N/A,core,"process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)","core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",374,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)","trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",CREATE TABLE,N/A,trading,portfolios,trading.portfolios,403,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)","trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",CREATE TABLE,N/A,trading,securities,trading.securities,408,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)","trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,417,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)","trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",CREATE TABLE,N/A,trading,portfolios,trading.portfolios,418,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)","trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",CREATE TABLE,N/A,trading,orders,trading.orders,431,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,orders,trading.orders,469,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,order_executions,trading.order_executions,485,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,trades,trading.trades,494,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,holdings,trading.holdings,509,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,holdings,trading.holdings,520,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,holdings,trading.holdings,527,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,trading,"execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)","trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",CREATE TABLE,N/A,trading,orders,trading.orders,534,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,risk,"calculate_var(INTEGER,DECIMAL,INTEGER)","risk.calculate_var(INTEGER,DECIMAL,INTEGER)",CREATE TABLE,N/A,trading,portfolios,trading.portfolios,560,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,risk,"calculate_var(INTEGER,DECIMAL,INTEGER)","risk.calculate_var(INTEGER,DECIMAL,INTEGER)",CREATE TABLE,N/A,trading,holdings,trading.holdings,568,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,risk,"calculate_var(INTEGER,DECIMAL,INTEGER)","risk.calculate_var(INTEGER,DECIMAL,INTEGER)",CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,582,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,core,transactions,core.transactions,612,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,core,accounts,core.accounts,613,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,619,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,loans,loans,loans.loans,620,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,core,accounts,core.accounts,626,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,analytics,"calculate_customer_profitability(INTEGER,DATE,DATE)","analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",CREATE TABLE,N/A,core,account_types,core.account_types,628,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,interest_calculations,core.interest_calculations,663,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,accounts,core.accounts,675,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,account_types,core.account_types,676,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,interest_calculations,core.interest_calculations,677,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,interest_calculations,core.interest_calculations,682,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,accounts,core.accounts,689,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,accounts,core.accounts,692,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,08_stored_procedures.sql,CREATE FUNCTION,N/A,core,run_daily_batch,core.run_daily_batch,CREATE TABLE,N/A,core,transactions,core.transactions,694,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_summary,analytics.customer_summary,CREATE TABLE,N/A,core,customers,core.customers,27,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_summary,analytics.customer_summary,CREATE TABLE,N/A,core,customer_types,core.customer_types,28,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_summary,analytics.customer_summary,CREATE TABLE,N/A,core,customer_status,core.customer_status,29,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_summary,analytics.customer_summary,CREATE TABLE,N/A,core,accounts,core.accounts,30,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,accounts,core.accounts,59,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,customers,core.customers,60,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,account_types,core.account_types,61,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,account_status,core.account_status,62,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,branches,core.branches,63,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,account_details,analytics.account_details,CREATE TABLE,N/A,core,transactions,core.transactions,64,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,transaction_analysis,analytics.transaction_analysis,CREATE TABLE,N/A,core,transactions,core.transactions,83,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,transaction_analysis,analytics.transaction_analysis,CREATE TABLE,N/A,core,transaction_types,core.transaction_types,84,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,loan_portfolio_summary,loans.loan_portfolio_summary,CREATE TABLE,N/A,loans,loans,loans.loans,107,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,loan_portfolio_summary,loans.loan_portfolio_summary,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,108,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,delinquency_report,loans.delinquency_report,CREATE TABLE,N/A,loans,loans,loans.loans,135,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,delinquency_report,loans.delinquency_report,CREATE TABLE,N/A,core,customers,core.customers,136,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,delinquency_report,loans.delinquency_report,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,137,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,delinquency_report,loans.delinquency_report,CREATE TABLE,N/A,loans,delinquency_tracking,loans.delinquency_tracking,138,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,portfolio_performance,trading.portfolio_performance,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,161,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,portfolio_performance,trading.portfolio_performance,CREATE TABLE,N/A,core,customers,core.customers,162,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,portfolio_performance,trading.portfolio_performance,CREATE TABLE,N/A,trading,holdings,trading.holdings,163,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,CREATE TABLE,N/A,trading,trades,trading.trades,185,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,CREATE TABLE,N/A,trading,securities,trading.securities,186,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,CREATE TABLE,N/A,trading,security_types,trading.security_types,187,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,trading,trading_activity,trading.trading_activity,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,188,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,risk_exposure_summary,risk.risk_exposure_summary,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,208,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,risk_exposure_summary,risk.risk_exposure_summary,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,209,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,risk_exposure_summary,risk.risk_exposure_summary,CREATE TABLE,N/A,risk,risk_categories,risk.risk_categories,210,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,risk_exposure_summary,risk.risk_exposure_summary,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,211,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,risk_exposure_summary,risk.risk_exposure_summary,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,213,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,risk,credit_risk_dashboard,risk.credit_risk_dashboard,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,231,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,aml_alerts_dashboard,compliance.aml_alerts_dashboard,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,252,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,compliance_status,compliance.compliance_status,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,274,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,compliance_status,compliance.compliance_status,CREATE TABLE,N/A,compliance,compliance_requirements,compliance.compliance_requirements,275,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,compliance_status,compliance.compliance_status,CREATE TABLE,N/A,compliance,regulations,compliance.regulations,276,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,compliance_status,compliance.compliance_status,CREATE TABLE,N/A,compliance,regulatory_authorities,compliance.regulatory_authorities,277,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,profitability_analysis,analytics.profitability_analysis,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,295,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,core,branches,core.branches,318,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,core,cities,core.cities,319,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,core,states,core.states,320,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,core,accounts,core.accounts,321,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,loans,loans,loans.loans,322,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,branch_performance,analytics.branch_performance,CREATE TABLE,N/A,core,employees,core.employees,323,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,product_performance_summary,analytics.product_performance_summary,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,346,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,product_performance_summary,analytics.product_performance_summary,CREATE TABLE,N/A,core,products,core.products,347,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,product_performance_summary,analytics.product_performance_summary,CREATE TABLE,N/A,core,product_categories,core.product_categories,348,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,operational_metrics,analytics.operational_metrics,CREATE TABLE,N/A,audit,database_performance,audit.database_performance,373,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_segmentation,analytics.customer_segmentation,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,388,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_segmentation,analytics.customer_segmentation,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,389,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,customer_segmentation,analytics.customer_segmentation,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,390,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,transaction_monitoring,compliance.transaction_monitoring,CREATE TABLE,N/A,core,transactions,core.transactions,405,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,transaction_monitoring,compliance.transaction_monitoring,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,406,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,compliance,transaction_monitoring,compliance.transaction_monitoring,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,408,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,treasury,interest_rate_risk_summary,treasury.interest_rate_risk_summary,CREATE TABLE,N/A,treasury,interest_rate_risk,treasury.interest_rate_risk,431,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,origination_pipeline,loans.origination_pipeline,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,451,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,loans,origination_pipeline,loans.origination_pipeline,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,452,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,core,accounts,core.accounts,462,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,loans,loans,loans.loans,463,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,core,accounts,core.accounts,464,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,core,account_types,core.account_types,465,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,467,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,core,customers,core.customers,469,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,loans,loans,loans.loans,472,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,478,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,loans,loan_provisions,loans.loan_provisions,480,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,482,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,09_views.sql,CREATE VIEW,N/A,analytics,executive_dashboard,analytics.executive_dashboard,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,484,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_customer_number,public.idx_customers_customer_number,CREATE TABLE,N/A,core,customers,core.customers,9,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_email,public.idx_customers_email,CREATE TABLE,N/A,core,customers,core.customers,10,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_ssn_hash,public.idx_customers_ssn_hash,CREATE TABLE,N/A,core,customers,core.customers,11,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_status_type,public.idx_customers_status_type,CREATE TABLE,N/A,core,customers,core.customers,12,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_created_date,public.idx_customers_created_date,CREATE TABLE,N/A,core,customers,core.customers,13,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_kyc_status,public.idx_customers_kyc_status,CREATE TABLE,N/A,core,customers,core.customers,14,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_customer_id,public.idx_accounts_customer_id,CREATE TABLE,N/A,core,accounts,core.accounts,17,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_account_number,public.idx_accounts_account_number,CREATE TABLE,N/A,core,accounts,core.accounts,18,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_branch_id,public.idx_accounts_branch_id,CREATE TABLE,N/A,core,accounts,core.accounts,19,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_status_type,public.idx_accounts_status_type,CREATE TABLE,N/A,core,accounts,core.accounts,20,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_opening_date,public.idx_accounts_opening_date,CREATE TABLE,N/A,core,accounts,core.accounts,21,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_balance,public.idx_accounts_balance,CREATE TABLE,N/A,core,accounts,core.accounts,22,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_currency,public.idx_accounts_currency,CREATE TABLE,N/A,core,accounts,core.accounts,23,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_account_id_date,public.idx_transactions_account_id_date,CREATE TABLE,N/A,core,transactions,core.transactions,26,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_date_amount,public.idx_transactions_date_amount,CREATE TABLE,N/A,core,transactions,core.transactions,27,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_reference,public.idx_transactions_reference,CREATE TABLE,N/A,core,transactions,core.transactions,28,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_type_status,public.idx_transactions_type_status,CREATE TABLE,N/A,core,transactions,core.transactions,29,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_channel,public.idx_transactions_channel,CREATE TABLE,N/A,core,transactions,core.transactions,30,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_counterparty,public.idx_transactions_counterparty,CREATE TABLE,N/A,core,transactions,core.transactions,31,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_accounts_code,public.idx_gl_accounts_code,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,34,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_accounts_type,public.idx_gl_accounts_type,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,35,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_accounts_parent,public.idx_gl_accounts_parent,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,36,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_transactions_date,public.idx_gl_transactions_date,CREATE TABLE,N/A,core,gl_transactions,core.gl_transactions,39,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_transactions_status,public.idx_gl_transactions_status,CREATE TABLE,N/A,core,gl_transactions,core.gl_transactions,40,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_transaction_details_gl_account,public.idx_gl_transaction_details_gl_account,CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,41,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_gl_transaction_details_gl_txn,public.idx_gl_transaction_details_gl_txn,CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,42,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_branches_code,public.idx_branches_code,CREATE TABLE,N/A,core,branches,core.branches,45,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_branches_city,public.idx_branches_city,CREATE TABLE,N/A,core,branches,core.branches,46,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customer_addresses_customer,public.idx_customer_addresses_customer,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,47,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cities_state,public.idx_cities_state,CREATE TABLE,N/A,core,cities,core.cities,48,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_states_country,public.idx_states_country,CREATE TABLE,N/A,core,states,core.states,49,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_employees_number,public.idx_employees_number,CREATE TABLE,N/A,core,employees,core.employees,52,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_employees_branch,public.idx_employees_branch,CREATE TABLE,N/A,core,employees,core.employees,53,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_employees_manager,public.idx_employees_manager,CREATE TABLE,N/A,core,employees,core.employees,54,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_employees_active,public.idx_employees_active,CREATE TABLE,N/A,core,employees,core.employees,55,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_applications_customer,public.idx_loan_applications_customer,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,59,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_applications_product,public.idx_loan_applications_product,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,60,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_applications_date,public.idx_loan_applications_date,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,61,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_applications_status,public.idx_loan_applications_status,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,62,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_applications_number,public.idx_loan_applications_number,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,63,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_customer_id,public.idx_loans_customer_id,CREATE TABLE,N/A,loans,loans,loans.loans,66,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_loan_number,public.idx_loans_loan_number,CREATE TABLE,N/A,loans,loans,loans.loans,67,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_product_id,public.idx_loans_product_id,CREATE TABLE,N/A,loans,loans,loans.loans,68,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_status,public.idx_loans_status,CREATE TABLE,N/A,loans,loans,loans.loans,69,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_delinquency,public.idx_loans_delinquency,CREATE TABLE,N/A,loans,loans,loans.loans,70,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_next_payment,public.idx_loans_next_payment,CREATE TABLE,N/A,loans,loans,loans.loans,71,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_maturity,public.idx_loans_maturity,CREATE TABLE,N/A,loans,loans,loans.loans,72,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_officer,public.idx_loans_officer,CREATE TABLE,N/A,loans,loans,loans.loans,73,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_payments_loan_id,public.idx_loan_payments_loan_id,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,76,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_payments_date,public.idx_loan_payments_date,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,77,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_payments_status,public.idx_loan_payments_status,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,78,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_schedules_loan_due,public.idx_loan_schedules_loan_due,CREATE TABLE,N/A,loans,loan_schedules,loans.loan_schedules,81,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_schedules_status,public.idx_loan_schedules_status,CREATE TABLE,N/A,loans,loan_schedules,loans.loan_schedules,82,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_scores_customer,public.idx_credit_scores_customer,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,85,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_scores_application,public.idx_credit_scores_application,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,86,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_scores_date,public.idx_credit_scores_date,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,87,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_scores_latest,public.idx_credit_scores_latest,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,88,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_collateral_loan,public.idx_loan_collateral_loan,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,91,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_collateral_type,public.idx_loan_collateral_type,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,92,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loan_collateral_status,public.idx_loan_collateral_status,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,93,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_securities_symbol_exchange,public.idx_securities_symbol_exchange,CREATE TABLE,N/A,trading,securities,trading.securities,97,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_securities_type,public.idx_securities_type,CREATE TABLE,N/A,trading,securities,trading.securities,98,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_securities_isin,public.idx_securities_isin,CREATE TABLE,N/A,trading,securities,trading.securities,99,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_securities_cusip,public.idx_securities_cusip,CREATE TABLE,N/A,trading,securities,trading.securities,100,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_securities_active,public.idx_securities_active,CREATE TABLE,N/A,trading,securities,trading.securities,101,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_market_data_security_date,public.idx_market_data_security_date,CREATE TABLE,N/A,trading,market_data,trading.market_data,104,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_real_time_quotes_security,public.idx_real_time_quotes_security,CREATE TABLE,N/A,trading,real_time_quotes,trading.real_time_quotes,105,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_real_time_quotes_timestamp,public.idx_real_time_quotes_timestamp,CREATE TABLE,N/A,trading,real_time_quotes,trading.real_time_quotes,106,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_portfolios_customer,public.idx_portfolios_customer,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,109,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_portfolios_account,public.idx_portfolios_account,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,110,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_portfolios_manager,public.idx_portfolios_manager,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,111,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_portfolios_active,public.idx_portfolios_active,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,112,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_holdings_portfolio_security,public.idx_holdings_portfolio_security,CREATE TABLE,N/A,trading,holdings,trading.holdings,115,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_holdings_portfolio,public.idx_holdings_portfolio,CREATE TABLE,N/A,trading,holdings,trading.holdings,116,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_holdings_security,public.idx_holdings_security,CREATE TABLE,N/A,trading,holdings,trading.holdings,117,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_portfolio,public.idx_orders_portfolio,CREATE TABLE,N/A,trading,orders,trading.orders,120,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_security,public.idx_orders_security,CREATE TABLE,N/A,trading,orders,trading.orders,121,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_status,public.idx_orders_status,CREATE TABLE,N/A,trading,orders,trading.orders,122,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_date,public.idx_orders_date,CREATE TABLE,N/A,trading,orders,trading.orders,123,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_side_status,public.idx_orders_side_status,CREATE TABLE,N/A,trading,orders,trading.orders,124,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_trades_portfolio,public.idx_trades_portfolio,CREATE TABLE,N/A,trading,trades,trading.trades,127,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_trades_security,public.idx_trades_security,CREATE TABLE,N/A,trading,trades,trading.trades,128,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_trades_date,public.idx_trades_date,CREATE TABLE,N/A,trading,trades,trading.trades,129,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_trades_settlement,public.idx_trades_settlement,CREATE TABLE,N/A,trading,trades,trading.trades,130,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_trades_trader,public.idx_trades_trader,CREATE TABLE,N/A,trading,trades,trading.trades,131,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_order_executions_order,public.idx_order_executions_order,CREATE TABLE,N/A,trading,order_executions,trading.order_executions,134,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_order_executions_time,public.idx_order_executions_time,CREATE TABLE,N/A,trading,order_executions,trading.order_executions,135,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_measurements_entity,public.idx_risk_measurements_entity,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,139,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_measurements_factor,public.idx_risk_measurements_factor,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,140,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_measurements_date,public.idx_risk_measurements_date,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,141,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_measurements_model,public.idx_risk_measurements_model,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,142,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limits_entity,public.idx_risk_limits_entity,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,145,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limits_factor,public.idx_risk_limits_factor,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,146,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limits_active,public.idx_risk_limits_active,CREATE TABLE,N/A,risk,risk_limits,risk.risk_limits,147,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limit_breaches_limit,public.idx_risk_limit_breaches_limit,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,150,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limit_breaches_date,public.idx_risk_limit_breaches_date,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,151,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limit_breaches_status,public.idx_risk_limit_breaches_status,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,152,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_limit_breaches_severity,public.idx_risk_limit_breaches_severity,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,153,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_ratings_entity,public.idx_credit_ratings_entity,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,156,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_ratings_agency,public.idx_credit_ratings_agency,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,157,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_ratings_date,public.idx_credit_ratings_date,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,158,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_credit_ratings_active,public.idx_credit_ratings_active,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,159,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_stress_test_results_scenario,public.idx_stress_test_results_scenario,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,162,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_stress_test_results_portfolio,public.idx_stress_test_results_portfolio,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,163,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_stress_test_results_date,public.idx_stress_test_results_date,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,164,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_customer,public.idx_aml_alerts_customer,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,168,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_account,public.idx_aml_alerts_account,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,169,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_transaction,public.idx_aml_alerts_transaction,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,170,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_type_priority,public.idx_aml_alerts_type_priority,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,171,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_status,public.idx_aml_alerts_status,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,172,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_date,public.idx_aml_alerts_date,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,173,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_assigned,public.idx_aml_alerts_assigned,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,174,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kyc_documents_customer,public.idx_kyc_documents_customer,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,177,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kyc_documents_type,public.idx_kyc_documents_type,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,178,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kyc_documents_status,public.idx_kyc_documents_status,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,179,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kyc_documents_expiry,public.idx_kyc_documents_expiry,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,180,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_screening_entity,public.idx_sanctions_screening_entity,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,183,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_screening_date,public.idx_sanctions_screening_date,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,184,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_screening_match,public.idx_sanctions_screening_match,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,185,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_screening_status,public.idx_sanctions_screening_status,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,186,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_entries_list,public.idx_sanctions_entries_list,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,189,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_entries_name,public.idx_sanctions_entries_name,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,190,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_entries_type,public.idx_sanctions_entries_type,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,191,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_entries_active,public.idx_sanctions_entries_active,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,192,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_compliance_monitoring_requirement,public.idx_compliance_monitoring_requirement,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,195,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_compliance_monitoring_entity,public.idx_compliance_monitoring_entity,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,196,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_compliance_monitoring_date,public.idx_compliance_monitoring_date,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,197,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_compliance_monitoring_status,public.idx_compliance_monitoring_status,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,198,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_customer,public.idx_wire_transfers_customer,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,202,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_account,public.idx_wire_transfers_account,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,203,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_date,public.idx_wire_transfers_date,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,204,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_status,public.idx_wire_transfers_status,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,205,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_type,public.idx_wire_transfers_type,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,206,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_wire_transfers_number,public.idx_wire_transfers_number,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,207,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_ach_transactions_customer,public.idx_ach_transactions_customer,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,210,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_ach_transactions_account,public.idx_ach_transactions_account,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,211,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_ach_transactions_date,public.idx_ach_transactions_date,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,212,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_ach_transactions_status,public.idx_ach_transactions_status,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,213,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_ach_transactions_type,public.idx_ach_transactions_type,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,214,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_payment_instructions_customer,public.idx_payment_instructions_customer,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,217,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_payment_instructions_account,public.idx_payment_instructions_account,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,218,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_payment_instructions_date,public.idx_payment_instructions_date,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,219,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_payment_instructions_status,public.idx_payment_instructions_status,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,220,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_customer,public.idx_cards_customer,CREATE TABLE,N/A,cards,cards,cards.cards,224,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_account,public.idx_cards_account,CREATE TABLE,N/A,cards,cards,cards.cards,225,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_number_hash,public.idx_cards_number_hash,CREATE TABLE,N/A,cards,cards,cards.cards,226,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_status,public.idx_cards_status,CREATE TABLE,N/A,cards,cards,cards.cards,227,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_expiry,public.idx_cards_expiry,CREATE TABLE,N/A,cards,cards,cards.cards,228,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_cards_type,public.idx_cards_type,CREATE TABLE,N/A,cards,cards,cards.cards,229,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_transactions_card,public.idx_card_transactions_card,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,232,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_transactions_date,public.idx_card_transactions_date,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,233,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_transactions_merchant,public.idx_card_transactions_merchant,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,234,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_transactions_type,public.idx_card_transactions_type,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,235,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_transactions_auth,public.idx_card_transactions_auth,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,236,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_rewards_card,public.idx_card_rewards_card,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,239,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_rewards_transaction,public.idx_card_rewards_transaction,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,240,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_rewards_posting,public.idx_card_rewards_posting,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,241,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_card_rewards_redeemed,public.idx_card_rewards_redeemed,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,242,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customer_analytics_customer,public.idx_customer_analytics_customer,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,246,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customer_analytics_date,public.idx_customer_analytics_date,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,247,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customer_analytics_segment,public.idx_customer_analytics_segment,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,248,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customer_analytics_tier,public.idx_customer_analytics_tier,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,249,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_product_performance_product,public.idx_product_performance_product,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,252,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_product_performance_date,public.idx_product_performance_date,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,253,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kpi_values_kpi,public.idx_kpi_values_kpi,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,256,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kpi_values_date,public.idx_kpi_values_date,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,257,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_kpi_values_status,public.idx_kpi_values_status,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,258,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_report_executions_report,public.idx_report_executions_report,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,261,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_report_executions_date,public.idx_report_executions_date,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,262,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_report_executions_status,public.idx_report_executions_status,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,263,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_audit_trails_table_record,public.idx_audit_trails_table_record,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,267,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_audit_trails_changed_by,public.idx_audit_trails_changed_by,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,268,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_audit_trails_changed_at,public.idx_audit_trails_changed_at,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,269,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_audit_trails_operation,public.idx_audit_trails_operation,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,270,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_error_logs_occurred_at,public.idx_error_logs_occurred_at,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,273,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_error_logs_severity,public.idx_error_logs_severity,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,274,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_error_logs_module,public.idx_error_logs_module,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,275,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_error_logs_user,public.idx_error_logs_user,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,276,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_user_sessions_user,public.idx_user_sessions_user,CREATE TABLE,N/A,audit,user_sessions,audit.user_sessions,279,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_user_sessions_login,public.idx_user_sessions_login,CREATE TABLE,N/A,audit,user_sessions,audit.user_sessions,280,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_user_sessions_active,public.idx_user_sessions_active,CREATE TABLE,N/A,audit,user_sessions,audit.user_sessions,281,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_system_parameters_name,public.idx_system_parameters_name,CREATE TABLE,N/A,core,system_parameters,core.system_parameters,284,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_system_parameters_category,public.idx_system_parameters_category,CREATE TABLE,N/A,core,system_parameters,core.system_parameters,285,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_business_calendar_date,public.idx_business_calendar_date,CREATE TABLE,N/A,core,business_calendar,core.business_calendar,288,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_business_calendar_business_day,public.idx_business_calendar_business_day,CREATE TABLE,N/A,core,business_calendar,core.business_calendar,289,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,293,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,CREATE TABLE,N/A,core,customers,core.customers,295,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,297,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,core,accounts,core.accounts,CREATE TABLE,N/A,core,customers,core.customers,299,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,301,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,core,transactions,core.transactions,CREATE TABLE,N/A,core,accounts,core.accounts,303,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loans,loans.loans,305,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,loans,loans,loans.loans,CREATE TABLE,N/A,core,customers,core.customers,307,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,309,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,CREATE TABLE,N/A,loans,loans,loans.loans,311,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,313,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,CREATE TABLE,N/A,core,customers,core.customers,315,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,holdings,trading.holdings,317,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,trading,holdings,trading.holdings,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,319,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,orders,trading.orders,321,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TABLE,N/A,trading,orders,trading.orders,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,323,FOREIGN KEY
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,326,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,330,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loans,loans.loans,334,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,338,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,holdings,trading.holdings,342,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,orders,trading.orders,346,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,350,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,355,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,branches,core.branches,359,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,363,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,securities,trading.securities,367,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,ALTER TABLE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,371,ALTER
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_accounts_active_balance,public.idx_accounts_active_balance,CREATE TABLE,N/A,core,accounts,core.accounts,377,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_recent_large,public.idx_transactions_recent_large,CREATE TABLE,N/A,core,transactions,core.transactions,381,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_delinquent,public.idx_loans_delinquent,CREATE TABLE,N/A,loans,loans,loans.loans,385,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_open_high_priority,public.idx_aml_alerts_open_high_priority,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,389,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_orders_pending_recent,public.idx_orders_pending_recent,CREATE TABLE,N/A,trading,orders,trading.orders,393,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_customer_date_amount,public.idx_transactions_customer_date_amount,CREATE TABLE,N/A,core,transactions,core.transactions,398,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_loans_customer_status_balance,public.idx_loans_customer_status_balance,CREATE TABLE,N/A,loans,loans,loans.loans,401,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_holdings_portfolio_value,public.idx_holdings_portfolio_value,CREATE TABLE,N/A,trading,holdings,trading.holdings,404,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_risk_measurements_entity_date_factor,public.idx_risk_measurements_entity_date_factor,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,407,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_customers_full_name,public.idx_customers_full_name,CREATE TABLE,N/A,core,customers,core.customers,411,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_transactions_month_year,public.idx_transactions_month_year,CREATE TABLE,N/A,core,transactions,core.transactions,414,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_aml_alerts_description_gin,public.idx_aml_alerts_description_gin,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,418,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE INDEX,N/A,public,idx_sanctions_entries_name_gin,public.idx_sanctions_entries_name_gin,CREATE TABLE,N/A,compliance,sanctions_entries,compliance.sanctions_entries,421,INDEX
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,428,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,432,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,436,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TRIGGER,N/A,public,audit_customers_trigger,public.audit_customers_trigger,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,447,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TRIGGER,N/A,public,audit_accounts_trigger,public.audit_accounts_trigger,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,451,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,10_indexes_constraints.sql,CREATE TRIGGER,N/A,public,audit_transactions_trigger,public.audit_transactions_trigger,CREATE FUNCTION,N/A,audit,audit_trigger_function,audit.audit_trigger_function,455,SQL STATEMENT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,countries,core.countries,9,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,states,core.states,22,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,cities,core.cities,34,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,currencies,core.currencies,50,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,exchange_rates,core.exchange_rates,63,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customer_types,core.customer_types,73,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customer_status,core.customer_status,81,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,account_types,core.account_types,88,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,account_status,core.account_status,97,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transaction_types,core.transaction_types,104,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transaction_status,core.transaction_status,115,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,branches,core.branches,123,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,employees,core.employees,131,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,144,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,157,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,170,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,183,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,exchanges,trading.exchanges,197,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,security_types,trading.security_types,205,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,securities,trading.securities,213,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,market_data,trading.market_data,223,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,236,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,243,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,holdings,trading.holdings,250,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_products,loans.loan_products,263,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,272,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loans,loans.loans,280,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,286,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,risk,risk_categories,risk.risk_categories,294,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,risk,risk_factors,risk.risk_factors,302,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,system_parameters,core.system_parameters,310,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,business_calendar,core.business_calendar,321,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,holidays,core.holidays,333,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,gl_accounts,core.gl_accounts,346,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,product_categories,core.product_categories,361,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,products,core.products,369,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,compliance,regulatory_authorities,compliance.regulatory_authorities,377,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,11_sample_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,compliance,regulations,compliance.regulations,384,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,core,customers,core.customers,67,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,core,accounts,core.accounts,68,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,core,transactions,core.transactions,69,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,loans,loans,loans.loans,72,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,73,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,76,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,trading,securities,trading.securities,77,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,check_data_integrity,core.check_data_integrity,CREATE TABLE,N/A,trading,holdings,trading.holdings,78,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,audit,audit_trails,audit.audit_trails,91,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,audit,error_logs,audit.error_logs,92,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,audit,user_sessions,audit.user_sessions,93,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,95,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,96,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,analytics,kpi_values,analytics.kpi_values,97,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,analytics,report_executions,analytics.report_executions,98,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,100,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,compliance,kyc_documents,compliance.kyc_documents,101,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,compliance,sanctions_screening,compliance.sanctions_screening,102,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,103,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,105,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,risk,risk_limit_breaches,risk.risk_limit_breaches,106,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,risk,stress_test_results,risk.stress_test_results,107,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,risk,credit_ratings,risk.credit_ratings,108,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,110,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,cards,card_rewards,cards.card_rewards,111,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,cards,cards,cards.cards,112,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,114,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,payment,ach_transactions,payment.ach_transactions,115,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,116,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,order_executions,trading.order_executions,118,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,trades,trading.trades,119,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,orders,trading.orders,120,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,holdings,trading.holdings,121,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,122,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,market_data,trading.market_data,123,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,trading,real_time_quotes,trading.real_time_quotes,124,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_payments,loans.loan_payments,126,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_schedules,loans.loan_schedules,127,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_collateral,loans.loan_collateral,128,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_guarantors,loans.loan_guarantors,129,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_modifications,loans.loan_modifications,130,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,delinquency_tracking,loans.delinquency_tracking,131,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,charge_offs,loans.charge_offs,132,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,recovery_tracking,loans.recovery_tracking,133,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_provisions,loans.loan_provisions,134,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,escrow_transactions,loans.escrow_transactions,135,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,escrow_accounts,loans.escrow_accounts,136,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loans,loans.loans,137,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,138,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,loans,credit_scores,loans.credit_scores,139,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,transactions,core.transactions,141,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,gl_transaction_details,core.gl_transaction_details,142,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,gl_transactions,core.gl_transactions,143,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,transaction_legs,core.transaction_legs,144,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,accounts,core.accounts,145,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,146,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,customer_products,core.customer_products,147,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,core,cleanup_dev_data,core.cleanup_dev_data,CREATE TABLE,N/A,core,customers,core.customers,148,TRUNCATE
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,audit,log_performance_metrics,audit.log_performance_metrics,CREATE TABLE,N/A,audit,database_performance,audit.database_performance,169,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,12_deployment_setup.sql,CREATE FUNCTION,N/A,audit,security_audit,audit.security_audit,CREATE TABLE,N/A,core,transactions,core.transactions,221,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,61,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_first_name,core.random_first_name,65,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_last_name,core.random_last_name,66,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_phone,core.random_phone,70,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_phone,core.random_phone,71,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,UPDATE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,79,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,UPDATE,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,"random_email(VARCHAR,VARCHAR)","core.random_email(VARCHAR,VARCHAR)",80,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customer_addresses,core.customer_addresses,84,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,94,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,98,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,branches,core.branches,111,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,UPDATE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,115,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,120,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,136,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,143,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loans,loans.loans,161,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loan_applications,loans.loan_applications,180,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,185,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,195,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,202,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,trading_accounts,trading.trading_accounts,214,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,holdings,trading.holdings,217,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,228,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,UPDATE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,holdings,trading.holdings,234,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,orders,trading.orders,239,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,253,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,cards,cards,cards.cards,260,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,277,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,283,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,UPDATE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,cards,cards,cards.cards,290,UPDATE
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,cards,card_transactions,cards.card_transactions,294,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,cards,cards,cards.cards,308,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,risk,risk_measurements,risk.risk_measurements,314,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,326,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,332,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,338,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,352,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,353,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,compliance,compliance_monitoring,compliance.compliance_monitoring,359,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,369,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,payment,payment_instructions,payment.payment_instructions,374,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_last_name,core.random_last_name,382,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_first_name,core.random_first_name,382,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,389,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,payment,wire_transfers,payment.wire_transfers,396,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_last_name,core.random_last_name,406,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_first_name,core.random_first_name,406,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,413,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,418,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,analytics,customer_analytics,analytics.customer_analytics,422,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,436,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,analytics,product_performance,analytics.product_performance,441,INSERT
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,INSERT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,products,core.products,453,SELECT - JOIN
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,DROP FUNCTION,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_first_name,core.random_first_name,457,DROP
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,DROP FUNCTION,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_last_name,core.random_last_name,458,DROP
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,DROP FUNCTION,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,"random_email(VARCHAR,VARCHAR)","core.random_email(VARCHAR,VARCHAR)",459,DROP
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,DROP FUNCTION,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_phone,core.random_phone,460,DROP
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,DROP FUNCTION,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,random_ssn,core.random_ssn,461,DROP
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,customers,core.customers,469,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,accounts,core.accounts,470,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,core,transactions,core.transactions,471,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,loans,loans,loans.loans,472,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,trading,portfolios,trading.portfolios,473,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,cards,cards,cards.cards,474,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,13_generate_bulk_data.sql,SELECT,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,compliance,aml_alerts,compliance.aml_alerts,475,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,14_csv_export_scripts.sql,SELECT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,core,export_all_tables_to_csv(TEXT),core.export_all_tables_to_csv(TEXT),412,SELECT - COLUMN
+85141c89-454c-4332-ac2a-5a045f33db04,14_csv_export_scripts.sql,SELECT,N/A,N/A,N/A,N/A,CREATE FUNCTION,N/A,analytics,get_table_statistics,analytics.get_table_statistics,415,SELECT - FROM
+85141c89-454c-4332-ac2a-5a045f33db04,14_csv_export_scripts.sql,SELECT,N/A,N/A,N/A,N/A,CREATE VIEW,N/A,analytics,csv_export_commands,analytics.csv_export_commands,418,SELECT - FROM

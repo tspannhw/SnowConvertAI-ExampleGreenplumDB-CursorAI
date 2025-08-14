@@ -1,0 +1,520 @@
+PartitionKey,FileType,Category,CodeUnit,CodeUnitId,FileName,LineNumber,LinesOfCode,EWI Count,FDM Count,PRF Count,HighestEWISeverity,UDFsUsed,EWI,FDM,PRF,ConversionStatus,LoCConversionPercentage,Deployment Order
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.executive_dashboard,09_views.sql,457,29,2,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,24.14%,8*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,loans.origination_pipeline,09_views.sql,435,21,0,1,0,N/A,N/A,N/A,SSC-FDM-0007,N/A,Success,100%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,treasury.interest_rate_risk_summary,09_views.sql,413,21,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,compliance.transaction_monitoring,09_views.sql,394,18,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,94.44%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.customer_segmentation,09_views.sql,377,16,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.operational_metrics,09_views.sql,352,24,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,95.83%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.product_performance_summary,09_views.sql,329,22,0,1,0,N/A,N/A,N/A,SSC-FDM-0007,N/A,Success,100%,3*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.branch_performance,09_views.sql,300,28,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,96.43%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.profitability_analysis,09_views.sql,282,17,0,1,0,N/A,N/A,N/A,SSC-FDM-0007,N/A,Success,100%,3*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,compliance.compliance_status,09_views.sql,257,24,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,compliance.aml_alerts_dashboard,09_views.sql,236,20,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,95%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,risk.credit_risk_dashboard,09_views.sql,218,17,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,risk.risk_exposure_summary,09_views.sql,194,23,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,95.65%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,trading.trading_activity,09_views.sql,170,23,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,95.65%,8*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,trading.portfolio_performance,09_views.sql,142,27,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,loans.delinquency_report,09_views.sql,113,28,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,loans.loan_portfolio_summary,09_views.sql,89,23,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.transaction_analysis,09_views.sql,71,17,0,1,0,N/A,N/A,N/A,SSC-FDM-0007,N/A,Success,100%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.account_details,09_views.sql,35,35,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,97.14%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.customer_summary,09_views.sql,7,27,1,0,0,Medium,N/A,SSC-EWI-PG0001,N/A,N/A,Partial,96.3%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DQL,SELECT,N/A,13_generate_bulk_data.sql,466,10,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,DROP FUNCTION,N/A,13_generate_bulk_data.sql,461,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,DROP FUNCTION,N/A,13_generate_bulk_data.sql,460,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,DROP FUNCTION,N/A,13_generate_bulk_data.sql,459,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,DROP FUNCTION,N/A,13_generate_bulk_data.sql,458,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,DROP FUNCTION,N/A,13_generate_bulk_data.sql,456,2,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,50%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,440,15,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,93.33%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,421,18,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,94.44%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,395,25,5,0,0,Medium,N/A,SSC-EWI-0073 | SSC-EWI-0036,N/A,N/A,Partial,88%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,373,21,2,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,90.48%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,358,14,2,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,85.71%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,337,20,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,313,23,2,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,91.3%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,293,19,2,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,89.47%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,UPDATE,N/A,13_generate_bulk_data.sql,289,3,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,259,29,4,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-0007,N/A,Partial,86.21%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,238,20,3,0,0,Medium,N/A,SSC-EWI-0073 | SSC-EWI-0036,N/A,N/A,Partial,90%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,UPDATE,N/A,13_generate_bulk_data.sql,233,4,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,216,16,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,93.75%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,201,14,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,184,16,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,93.75%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,160,23,3,0,0,Medium,N/A,SSC-EWI-0073 | SSC-EWI-0036,N/A,N/A,Partial,86.96%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,142,17,3,0,0,Medium,N/A,SSC-EWI-0073 | SSC-EWI-0036,N/A,N/A,Partial,88.24%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,119,22,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,95.45%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,UPDATE,N/A,13_generate_bulk_data.sql,114,4,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,97,16,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,93.75%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,83,13,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,UPDATE,N/A,13_generate_bulk_data.sql,78,4,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,13_generate_bulk_data.sql,60,17,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,94.12%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.random_ssn,13_generate_bulk_data.sql,51,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.random_phone,13_generate_bulk_data.sql,42,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"core.random_email(VARCHAR,VARCHAR)",13_generate_bulk_data.sql,32,9,2,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0016,N/A,Partial,77.78%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.random_last_name,13_generate_bulk_data.sql,20,11,2,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0016,N/A,Partial,81.82%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.random_first_name,13_generate_bulk_data.sql,7,12,2,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0016,N/A,Partial,83.33%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.run_maintenance,12_deployment_setup.sql,284,35,2,0,0,Critical,N/A,SSC-EWI-0001,N/A,N/A,Partial,20%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.health_check,12_deployment_setup.sql,247,32,5,1,0,High,N/A,SSC-EWI-0036 | SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-0007,N/A,Partial,43.75%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.backup_status,12_deployment_setup.sql,228,17,2,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,70.59%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,audit.security_audit,12_deployment_setup.sql,192,32,4,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-0007,N/A,Partial,40.62%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,audit.log_performance_metrics,12_deployment_setup.sql,165,26,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0017 | SSC-FDM-0007,N/A,Success,100%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.cleanup_dev_data,12_deployment_setup.sql,84,70,59,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-0007,N/A,Partial,15.71%,9*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.check_data_integrity,12_deployment_setup.sql,58,22,9,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,59.09%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.verify_installation,12_deployment_setup.sql,7,44,8,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-0007,N/A,Partial,81.82%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DQL,SELECT,N/A,14_csv_export_scripts.sql,417,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DQL,SELECT,N/A,14_csv_export_scripts.sql,414,2,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,50%,2*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DQL,SELECT,N/A,14_csv_export_scripts.sql,411,2,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.generate_python_export_script,14_csv_export_scripts.sql,332,63,55,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,12.7%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.generate_export_shell_script,14_csv_export_scripts.sql,285,39,22,0,1,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,SSC-PRF-0008,Partial,35.9%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,analytics.get_table_statistics,14_csv_export_scripts.sql,240,40,8,1,1,High,N/A,SSC-EWI-0073 | SSC-EWI-PG0007 | SSC-EWI-0068,SSC-FDM-0007,SSC-PRF-0008,Partial,72.5%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.csv_export_commands,14_csv_export_scripts.sql,224,15,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.export_all_tables_to_csv(TEXT),14_csv_export_scripts.sql,7,183,50,0,10,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,SSC-PRF-0008,Partial,57.38%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,VIEW,CREATE VIEW,analytics.table_count_verification,07_remaining_tables.sql,729,11,0,1,0,N/A,N/A,N/A,SSC-FDM-0007,N/A,Success,100%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.crypto_holdings,07_remaining_tables.sql,713,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.robo_advisory,07_remaining_tables.sql,694,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.algo_trading_strategies,07_remaining_tables.sql,678,15,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.esg_scores,07_remaining_tables.sql,662,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.bond_analytics,07_remaining_tables.sql,599,61,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.alternative_investments,07_remaining_tables.sql,576,22,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.hedge_fund_strategies,07_remaining_tables.sql,556,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.economic_indicators,07_remaining_tables.sql,541,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.market_risk_factors,07_remaining_tables.sql,527,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.credit_scoring_variables,07_remaining_tables.sql,511,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.configuration_items,07_remaining_tables.sql,493,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.business_rules,07_remaining_tables.sql,475,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.data_quality_metrics,07_remaining_tables.sql,458,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,audit.application_logs,07_remaining_tables.sql,442,15,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-GP0001,N/A,Partial,93.33%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,audit.database_performance,07_remaining_tables.sql,424,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.wealth_management_accounts,07_remaining_tables.sql,402,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.pension_plans,07_remaining_tables.sql,383,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.insurance_policies,07_remaining_tables.sql,358,24,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.insurance_products,07_remaining_tables.sql,335,22,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.mutual_fund_transactions,07_remaining_tables.sql,315,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.mutual_funds,07_remaining_tables.sql,293,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.fx_positions,07_remaining_tables.sql,271,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.trade_finance,07_remaining_tables.sql,243,27,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.customer_due_diligence,07_remaining_tables.sql,219,23,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.aml_rules,07_remaining_tables.sql,200,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.ecl_calculations,07_remaining_tables.sql,180,19,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,94.74%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.liquidity_ratios,07_remaining_tables.sql,163,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.stress_scenario_factors,07_remaining_tables.sql,150,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.regulatory_capital,07_remaining_tables.sql,129,20,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.commodity_trades,07_remaining_tables.sql,107,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.fx_forwards,07_remaining_tables.sql,89,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.interest_rate_swaps,07_remaining_tables.sql,69,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.derivatives,07_remaining_tables.sql,49,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.syndicated_loans,07_remaining_tables.sql,29,19,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.ib_deals,07_remaining_tables.sql,7,21,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.interest_calculations,06_analytics_payment_tables.sql,529,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customer_communications,06_analytics_payment_tables.sql,511,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.fee_structures,06_analytics_payment_tables.sql,492,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.notifications,06_analytics_payment_tables.sql,475,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.batch_jobs,06_analytics_payment_tables.sql,459,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,audit.user_sessions,06_analytics_payment_tables.sql,446,12,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-GP0001,N/A,Partial,91.67%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,audit.error_logs,06_analytics_payment_tables.sql,429,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.system_parameters,06_analytics_payment_tables.sql,415,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.business_calendar,06_analytics_payment_tables.sql,402,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.holidays,06_analytics_payment_tables.sql,389,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,audit.audit_trails,06_analytics_payment_tables.sql,373,15,1,1,0,Medium,N/A,SSC-EWI-0073,SSC-FDM-GP0001,N/A,Partial,93.33%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,treasury.interest_rate_risk,06_analytics_payment_tables.sql,355,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,treasury.funding_sources,06_analytics_payment_tables.sql,337,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,treasury.liquidity_management,06_analytics_payment_tables.sql,318,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,cards.card_rewards,06_analytics_payment_tables.sql,302,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,cards.card_transactions,06_analytics_payment_tables.sql,279,22,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,cards.cards,06_analytics_payment_tables.sql,255,23,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,cards.card_types,06_analytics_payment_tables.sql,238,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,payment.ach_transactions,06_analytics_payment_tables.sql,213,24,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,payment.wire_transfers,06_analytics_payment_tables.sql,181,31,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,payment.payment_instructions,06_analytics_payment_tables.sql,157,23,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,payment.payment_processors,06_analytics_payment_tables.sql,142,14,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,payment.payment_methods,06_analytics_payment_tables.sql,126,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.product_performance,06_analytics_payment_tables.sql,105,20,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.customer_analytics,06_analytics_payment_tables.sql,85,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.kpi_values,06_analytics_payment_tables.sql,70,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.kpi_definitions,06_analytics_payment_tables.sql,53,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.report_executions,06_analytics_payment_tables.sql,39,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.reports,06_analytics_payment_tables.sql,21,17,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,analytics.data_sources,06_analytics_payment_tables.sql,7,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,core.run_daily_batch,08_stored_procedures.sql,654,51,1,0,0,High,N/A,SSC-EWI-0068,N/A,N/A,Partial,98.04%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"analytics.calculate_customer_profitability(INTEGER,DATE,DATE)",08_stored_procedures.sql,594,53,2,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,75.47%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"risk.calculate_var(INTEGER,DECIMAL,INTEGER)",08_stored_procedures.sql,545,43,3,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,93.02%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"trading.execute_order(BIGINT,DECIMAL,DECIMAL,VARCHAR)",08_stored_procedures.sql,445,89,4,0,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF | FOUND_UDF,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,76.4%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"trading.place_order(INTEGER,INTEGER,INTEGER,VARCHAR,DECIMAL,DECIMAL,DECIMAL)",08_stored_procedures.sql,385,52,4,1,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0009,N/A,Partial,76.92%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"loans.process_loan_payment(INTEGER,DECIMAL,DATE,VARCHAR)",08_stored_procedures.sql,317,60,4,0,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF | FOUND_UDF,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,83.33%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,loans.calculate_payment_schedule(INTEGER),08_stored_procedures.sql,264,46,1,0,1,High,N/A,SSC-EWI-0068,N/A,SSC-PRF-0008,Partial,97.83%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"loans.create_loan_application(INTEGER,INTEGER,DECIMAL,INTEGER,TEXT)",08_stored_procedures.sql,211,46,2,1,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF | FOUND_UDF,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0009,N/A,Partial,78.26%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"core.transfer_funds(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",08_stored_procedures.sql,164,41,3,0,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,78.05%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"core.process_transaction(INTEGER,INTEGER,DECIMAL,TEXT,VARCHAR)",08_stored_procedures.sql,99,58,3,1,0,High,RAISE_MESSAGE_UDF | STRING_FORMAT_UDF,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0009,N/A,Partial,77.59%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"core.create_account(INTEGER,INTEGER,INTEGER,CHAR,DECIMAL)",08_stored_procedures.sql,47,46,4,1,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0009,N/A,Partial,69.57%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,"core.create_customer(INTEGER,VARCHAR,VARCHAR,DATE,VARCHAR,VARCHAR,VARCHAR,VARCHAR,INTEGER)",08_stored_procedures.sql,7,36,2,2,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,SSC-FDM-PG0009 | SSC-FDM-0007,N/A,Partial,77.78%,4*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.capital_adequacy,04_risk_compliance_tables.sql,418,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.basel_requirements,04_risk_compliance_tables.sql,402,15,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,93.33%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.operational_risk_events,04_risk_compliance_tables.sql,378,23,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.trade_surveillance_rules,04_risk_compliance_tables.sql,362,15,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.market_abuse_monitoring,04_risk_compliance_tables.sql,341,20,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.regulatory_reports,04_risk_compliance_tables.sql,323,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.sanctions_screening,04_risk_compliance_tables.sql,305,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.sanctions_entries,04_risk_compliance_tables.sql,286,18,0,4,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,3*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.sanctions_lists,04_risk_compliance_tables.sql,273,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.kyc_documents,04_risk_compliance_tables.sql,255,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.aml_alerts,04_risk_compliance_tables.sql,231,23,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.compliance_monitoring,04_risk_compliance_tables.sql,213,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.compliance_requirements,04_risk_compliance_tables.sql,198,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.regulations,04_risk_compliance_tables.sql,183,14,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,compliance.regulatory_authorities,04_risk_compliance_tables.sql,170,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.counterparty_risk,04_risk_compliance_tables.sql,153,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.credit_ratings,04_risk_compliance_tables.sql,133,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.stress_test_results,04_risk_compliance_tables.sql,118,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.stress_test_scenarios,04_risk_compliance_tables.sql,102,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_limit_breaches,04_risk_compliance_tables.sql,85,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_measurements,04_risk_compliance_tables.sql,68,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_limits,04_risk_compliance_tables.sql,50,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_models,04_risk_compliance_tables.sql,33,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_factors,04_risk_compliance_tables.sql,19,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,risk.risk_categories,04_risk_compliance_tables.sql,7,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,OUT OF SCOPE,CREATE TRIGGER,public.audit_transactions_trigger,10_indexes_constraints.sql,453,3,0,0,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,OUT OF SCOPE,CREATE TRIGGER,public.audit_accounts_trigger,10_indexes_constraints.sql,449,3,0,0,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,OUT OF SCOPE,CREATE TRIGGER,public.audit_customers_trigger,10_indexes_constraints.sql,444,4,0,0,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,FUNCTION,CREATE FUNCTION,audit.audit_trigger_function,10_indexes_constraints.sql,423,20,6,0,0,High,N/A,SSC-EWI-0073 | SSC-EWI-0068,N/A,N/A,Partial,75%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_entries_name_gin,10_indexes_constraints.sql,420,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_description_gin,10_indexes_constraints.sql,416,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_month_year,10_indexes_constraints.sql,413,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_full_name,10_indexes_constraints.sql,409,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_measurements_entity_date_factor,10_indexes_constraints.sql,406,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_holdings_portfolio_value,10_indexes_constraints.sql,403,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_customer_status_balance,10_indexes_constraints.sql,400,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_customer_date_amount,10_indexes_constraints.sql,396,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_pending_recent,10_indexes_constraints.sql,392,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_open_high_priority,10_indexes_constraints.sql,388,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_delinquent,10_indexes_constraints.sql,384,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_recent_large,10_indexes_constraints.sql,380,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_active_balance,10_indexes_constraints.sql,375,4,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,payment.wire_transfers,10_indexes_constraints.sql,371,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.securities,10_indexes_constraints.sql,367,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,loans.loan_applications,10_indexes_constraints.sql,363,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.branches,10_indexes_constraints.sql,359,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.customers,10_indexes_constraints.sql,354,4,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,50%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,risk.risk_measurements,10_indexes_constraints.sql,350,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.orders,10_indexes_constraints.sql,346,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.holdings,10_indexes_constraints.sql,342,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,loans.loan_payments,10_indexes_constraints.sql,338,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,loans.loans,10_indexes_constraints.sql,334,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.transactions,10_indexes_constraints.sql,330,3,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,NotSupported,0%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.accounts,10_indexes_constraints.sql,325,4,1,0,0,Low,N/A,SSC-EWI-0035,N/A,N/A,Partial,25%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.orders,10_indexes_constraints.sql,321,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.holdings,10_indexes_constraints.sql,317,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,trading.portfolios,10_indexes_constraints.sql,313,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,loans.loan_payments,10_indexes_constraints.sql,309,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,loans.loans,10_indexes_constraints.sql,305,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.transactions,10_indexes_constraints.sql,301,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.accounts,10_indexes_constraints.sql,297,3,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,33.33%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,ALTER TABLE,core.customer_addresses,10_indexes_constraints.sql,291,5,1,0,0,Low,N/A,SSC-EWI-PG0003,N/A,N/A,Partial,60%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_business_calendar_business_day,10_indexes_constraints.sql,289,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_business_calendar_date,10_indexes_constraints.sql,287,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_system_parameters_category,10_indexes_constraints.sql,285,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_system_parameters_name,10_indexes_constraints.sql,283,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_user_sessions_active,10_indexes_constraints.sql,281,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_user_sessions_login,10_indexes_constraints.sql,280,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_user_sessions_user,10_indexes_constraints.sql,278,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_error_logs_user,10_indexes_constraints.sql,276,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_error_logs_module,10_indexes_constraints.sql,275,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_error_logs_severity,10_indexes_constraints.sql,274,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_error_logs_occurred_at,10_indexes_constraints.sql,272,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_audit_trails_operation,10_indexes_constraints.sql,270,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_audit_trails_changed_at,10_indexes_constraints.sql,269,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_audit_trails_changed_by,10_indexes_constraints.sql,268,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_audit_trails_table_record,10_indexes_constraints.sql,265,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_report_executions_status,10_indexes_constraints.sql,263,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_report_executions_date,10_indexes_constraints.sql,262,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_report_executions_report,10_indexes_constraints.sql,260,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kpi_values_status,10_indexes_constraints.sql,258,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kpi_values_date,10_indexes_constraints.sql,257,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kpi_values_kpi,10_indexes_constraints.sql,255,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_product_performance_date,10_indexes_constraints.sql,253,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_product_performance_product,10_indexes_constraints.sql,251,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customer_analytics_tier,10_indexes_constraints.sql,249,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customer_analytics_segment,10_indexes_constraints.sql,248,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customer_analytics_date,10_indexes_constraints.sql,247,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customer_analytics_customer,10_indexes_constraints.sql,244,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_rewards_redeemed,10_indexes_constraints.sql,242,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_rewards_posting,10_indexes_constraints.sql,241,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_rewards_transaction,10_indexes_constraints.sql,240,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_rewards_card,10_indexes_constraints.sql,238,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_transactions_auth,10_indexes_constraints.sql,236,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_transactions_type,10_indexes_constraints.sql,235,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_transactions_merchant,10_indexes_constraints.sql,234,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_transactions_date,10_indexes_constraints.sql,233,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_card_transactions_card,10_indexes_constraints.sql,231,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_type,10_indexes_constraints.sql,229,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_expiry,10_indexes_constraints.sql,228,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_status,10_indexes_constraints.sql,227,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_number_hash,10_indexes_constraints.sql,226,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_account,10_indexes_constraints.sql,225,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cards_customer,10_indexes_constraints.sql,222,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_payment_instructions_status,10_indexes_constraints.sql,220,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_payment_instructions_date,10_indexes_constraints.sql,219,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_payment_instructions_account,10_indexes_constraints.sql,218,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_payment_instructions_customer,10_indexes_constraints.sql,216,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_ach_transactions_type,10_indexes_constraints.sql,214,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_ach_transactions_status,10_indexes_constraints.sql,213,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_ach_transactions_date,10_indexes_constraints.sql,212,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_ach_transactions_account,10_indexes_constraints.sql,211,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_ach_transactions_customer,10_indexes_constraints.sql,209,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_number,10_indexes_constraints.sql,207,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_type,10_indexes_constraints.sql,206,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_status,10_indexes_constraints.sql,205,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_date,10_indexes_constraints.sql,204,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_account,10_indexes_constraints.sql,203,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_wire_transfers_customer,10_indexes_constraints.sql,200,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_compliance_monitoring_status,10_indexes_constraints.sql,198,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_compliance_monitoring_date,10_indexes_constraints.sql,197,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_compliance_monitoring_entity,10_indexes_constraints.sql,196,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_compliance_monitoring_requirement,10_indexes_constraints.sql,194,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_entries_active,10_indexes_constraints.sql,192,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_entries_type,10_indexes_constraints.sql,191,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_entries_name,10_indexes_constraints.sql,190,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_entries_list,10_indexes_constraints.sql,188,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_screening_status,10_indexes_constraints.sql,186,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_screening_match,10_indexes_constraints.sql,185,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_screening_date,10_indexes_constraints.sql,184,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_sanctions_screening_entity,10_indexes_constraints.sql,182,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kyc_documents_expiry,10_indexes_constraints.sql,180,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kyc_documents_status,10_indexes_constraints.sql,179,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kyc_documents_type,10_indexes_constraints.sql,178,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_kyc_documents_customer,10_indexes_constraints.sql,176,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_assigned,10_indexes_constraints.sql,174,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_date,10_indexes_constraints.sql,173,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_status,10_indexes_constraints.sql,172,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_type_priority,10_indexes_constraints.sql,171,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_transaction,10_indexes_constraints.sql,170,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_account,10_indexes_constraints.sql,169,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_aml_alerts_customer,10_indexes_constraints.sql,166,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_stress_test_results_date,10_indexes_constraints.sql,164,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_stress_test_results_portfolio,10_indexes_constraints.sql,163,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_stress_test_results_scenario,10_indexes_constraints.sql,161,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_ratings_active,10_indexes_constraints.sql,159,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_ratings_date,10_indexes_constraints.sql,158,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_ratings_agency,10_indexes_constraints.sql,157,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_ratings_entity,10_indexes_constraints.sql,155,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limit_breaches_severity,10_indexes_constraints.sql,153,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limit_breaches_status,10_indexes_constraints.sql,152,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limit_breaches_date,10_indexes_constraints.sql,151,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limit_breaches_limit,10_indexes_constraints.sql,149,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limits_active,10_indexes_constraints.sql,147,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limits_factor,10_indexes_constraints.sql,146,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_limits_entity,10_indexes_constraints.sql,144,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_measurements_model,10_indexes_constraints.sql,142,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_measurements_date,10_indexes_constraints.sql,141,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_measurements_factor,10_indexes_constraints.sql,140,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_risk_measurements_entity,10_indexes_constraints.sql,137,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_order_executions_time,10_indexes_constraints.sql,135,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_order_executions_order,10_indexes_constraints.sql,133,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_trades_trader,10_indexes_constraints.sql,131,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_trades_settlement,10_indexes_constraints.sql,130,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_trades_date,10_indexes_constraints.sql,129,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_trades_security,10_indexes_constraints.sql,128,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_trades_portfolio,10_indexes_constraints.sql,126,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_side_status,10_indexes_constraints.sql,124,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_date,10_indexes_constraints.sql,123,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_status,10_indexes_constraints.sql,122,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_security,10_indexes_constraints.sql,121,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_orders_portfolio,10_indexes_constraints.sql,119,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_holdings_security,10_indexes_constraints.sql,117,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_holdings_portfolio,10_indexes_constraints.sql,116,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_holdings_portfolio_security,10_indexes_constraints.sql,114,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_portfolios_active,10_indexes_constraints.sql,112,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_portfolios_manager,10_indexes_constraints.sql,111,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_portfolios_account,10_indexes_constraints.sql,110,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_portfolios_customer,10_indexes_constraints.sql,108,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_real_time_quotes_timestamp,10_indexes_constraints.sql,106,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_real_time_quotes_security,10_indexes_constraints.sql,105,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_market_data_security_date,10_indexes_constraints.sql,103,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_securities_active,10_indexes_constraints.sql,101,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_securities_cusip,10_indexes_constraints.sql,100,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_securities_isin,10_indexes_constraints.sql,99,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_securities_type,10_indexes_constraints.sql,98,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_securities_symbol_exchange,10_indexes_constraints.sql,95,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_collateral_status,10_indexes_constraints.sql,93,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_collateral_type,10_indexes_constraints.sql,92,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_collateral_loan,10_indexes_constraints.sql,90,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_scores_latest,10_indexes_constraints.sql,88,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_scores_date,10_indexes_constraints.sql,87,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_scores_application,10_indexes_constraints.sql,86,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_credit_scores_customer,10_indexes_constraints.sql,84,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_schedules_status,10_indexes_constraints.sql,82,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_schedules_loan_due,10_indexes_constraints.sql,80,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_payments_status,10_indexes_constraints.sql,78,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_payments_date,10_indexes_constraints.sql,77,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_payments_loan_id,10_indexes_constraints.sql,75,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_officer,10_indexes_constraints.sql,73,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_maturity,10_indexes_constraints.sql,72,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_next_payment,10_indexes_constraints.sql,71,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_delinquency,10_indexes_constraints.sql,70,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_status,10_indexes_constraints.sql,69,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_product_id,10_indexes_constraints.sql,68,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_loan_number,10_indexes_constraints.sql,67,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loans_customer_id,10_indexes_constraints.sql,65,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_applications_number,10_indexes_constraints.sql,63,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_applications_status,10_indexes_constraints.sql,62,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_applications_date,10_indexes_constraints.sql,61,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_applications_product,10_indexes_constraints.sql,60,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_loan_applications_customer,10_indexes_constraints.sql,57,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_employees_active,10_indexes_constraints.sql,55,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_employees_manager,10_indexes_constraints.sql,54,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_employees_branch,10_indexes_constraints.sql,53,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_employees_number,10_indexes_constraints.sql,51,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_states_country,10_indexes_constraints.sql,49,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_cities_state,10_indexes_constraints.sql,48,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customer_addresses_customer,10_indexes_constraints.sql,47,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_branches_city,10_indexes_constraints.sql,46,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_branches_code,10_indexes_constraints.sql,44,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_transaction_details_gl_txn,10_indexes_constraints.sql,42,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_transaction_details_gl_account,10_indexes_constraints.sql,41,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_transactions_status,10_indexes_constraints.sql,40,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_transactions_date,10_indexes_constraints.sql,38,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_accounts_parent,10_indexes_constraints.sql,36,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_accounts_type,10_indexes_constraints.sql,35,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_gl_accounts_code,10_indexes_constraints.sql,33,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_counterparty,10_indexes_constraints.sql,31,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_channel,10_indexes_constraints.sql,30,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_type_status,10_indexes_constraints.sql,29,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_reference,10_indexes_constraints.sql,28,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_date_amount,10_indexes_constraints.sql,27,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_transactions_account_id_date,10_indexes_constraints.sql,25,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_currency,10_indexes_constraints.sql,23,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_balance,10_indexes_constraints.sql,22,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_opening_date,10_indexes_constraints.sql,21,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_status_type,10_indexes_constraints.sql,20,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_branch_id,10_indexes_constraints.sql,19,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_account_number,10_indexes_constraints.sql,18,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_accounts_customer_id,10_indexes_constraints.sql,16,2,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_kyc_status,10_indexes_constraints.sql,14,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_created_date,10_indexes_constraints.sql,13,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_status_type,10_indexes_constraints.sql,12,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_ssn_hash,10_indexes_constraints.sql,11,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_email,10_indexes_constraints.sql,10,1,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,INDEX,CREATE INDEX,public.idx_customers_customer_number,10_indexes_constraints.sql,7,3,0,1,0,N/A,N/A,N/A,SSC-FDM-0021,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.employees,02_core_tables.sql,335,18,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customer_products,02_core_tables.sql,323,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.products,02_core_tables.sql,305,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.product_categories,02_core_tables.sql,294,10,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.gl_transaction_details,02_core_tables.sql,282,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.gl_transactions,02_core_tables.sql,267,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.gl_accounts,02_core_tables.sql,252,14,2,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,85.71%,0*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.transaction_legs,02_core_tables.sql,240,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.transactions,02_core_tables.sql,214,25,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.transaction_status,02_core_tables.sql,204,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.transaction_types,02_core_tables.sql,191,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.account_joint_holders,02_core_tables.sql,180,10,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.accounts,02_core_tables.sql,159,20,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.account_status,02_core_tables.sql,149,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.account_types,02_core_tables.sql,135,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.branches,02_core_tables.sql,117,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customer_addresses,02_core_tables.sql,103,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customers,02_core_tables.sql,78,24,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,95.83%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customer_status,02_core_tables.sql,69,8,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.customer_types,02_core_tables.sql,60,8,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.exchange_rates,02_core_tables.sql,49,10,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.currencies,02_core_tables.sql,39,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.cities,02_core_tables.sql,29,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.states,02_core_tables.sql,19,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,core.countries,02_core_tables.sql,7,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.credit_lines,05_loan_credit_tables.sql,476,24,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_performance_analytics,05_loan_credit_tables.sql,457,18,0,3,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.escrow_transactions,05_loan_credit_tables.sql,443,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,8*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.escrow_accounts,05_loan_credit_tables.sql,426,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.servicing_rights,05_loan_credit_tables.sql,410,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_pricing,05_loan_credit_tables.sql,388,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.interest_rate_models,05_loan_credit_tables.sql,371,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_provisions,05_loan_credit_tables.sql,353,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.recovery_tracking,05_loan_credit_tables.sql,337,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,8*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.charge_offs,05_loan_credit_tables.sql,320,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.delinquency_tracking,05_loan_credit_tables.sql,298,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_modifications,05_loan_credit_tables.sql,276,21,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_guarantors,05_loan_credit_tables.sql,261,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_collateral,05_loan_credit_tables.sql,241,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.collateral_types,05_loan_credit_tables.sql,228,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_schedules,05_loan_credit_tables.sql,211,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_payments,05_loan_credit_tables.sql,191,19,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loans,05_loan_credit_tables.sql,156,34,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.underwriting_decisions,05_loan_credit_tables.sql,133,22,0,3,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.underwriting_criteria,05_loan_credit_tables.sql,117,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.credit_scores,05_loan_credit_tables.sql,100,16,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,6*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.credit_scoring_models,05_loan_credit_tables.sql,79,20,0,2,0,N/A,N/A,N/A,SSC-FDM-PG0016 | SSC-FDM-GP0001,N/A,Success,100%,5*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_application_documents,05_loan_credit_tables.sql,61,17,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_applications,05_loan_credit_tables.sql,35,25,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,loans.loan_products,05_loan_credit_tables.sql,7,27,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,384,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,376,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,368,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,360,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,345,14,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,332,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,320,11,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,309,10,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,301,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,293,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,285,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,8
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,279,5,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,271,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,262,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,249,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,7
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,242,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,235,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,222,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,212,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,204,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,195,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,182,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,169,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,156,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,143,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,130,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,122,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,4
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,114,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,103,10,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,96,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,87,8,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,80,6,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,72,7,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,62,9,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,49,12,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,33,15,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,21,11,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DML,INSERT,N/A,11_sample_data.sql,7,13,0,0,0,N/A,N/A,N/A,N/A,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.futures,03_trading_tables.sql,378,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.options,03_trading_tables.sql,363,14,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,92.86%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.prime_brokerage,03_trading_tables.sql,350,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.broker_dealers,03_trading_tables.sql,334,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.investment_research,03_trading_tables.sql,318,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.position_valuations,03_trading_tables.sql,303,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.margin_requirements,03_trading_tables.sql,290,12,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.watchlist_securities,03_trading_tables.sql,280,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.watchlists,03_trading_tables.sql,270,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.corporate_actions,03_trading_tables.sql,253,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.corporate_action_types,03_trading_tables.sql,241,11,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.trades,03_trading_tables.sql,216,24,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,95.83%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.order_executions,03_trading_tables.sql,201,14,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,7*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.orders,03_trading_tables.sql,174,26,1,1,0,Low,N/A,SSC-EWI-0035,SSC-FDM-GP0001,N/A,Partial,96.15%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.order_status,03_trading_tables.sql,164,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.order_types,03_trading_tables.sql,154,9,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.holdings,03_trading_tables.sql,140,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,6
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.portfolios,03_trading_tables.sql,119,20,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,5
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.trading_accounts,03_trading_tables.sql,102,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.real_time_quotes,03_trading_tables.sql,86,15,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.market_data,03_trading_tables.sql,69,16,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,3
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.securities,03_trading_tables.sql,43,25,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,2
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.security_types,03_trading_tables.sql,32,10,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.exchanges,03_trading_tables.sql,18,13,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,1
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,TABLE,CREATE TABLE,trading.market_data_providers,03_trading_tables.sql,7,10,0,1,0,N/A,N/A,N/A,SSC-FDM-GP0001,N/A,Success,100%,0*
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,audit,01_create_database.sql,21,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,treasury,01_create_database.sql,20,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,payment,01_create_database.sql,19,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,cards,01_create_database.sql,18,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,loans,01_create_database.sql,17,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,analytics,01_create_database.sql,16,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,compliance,01_create_database.sql,15,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,risk,01_create_database.sql,14,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,trading,01_create_database.sql,13,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,SCHEMA,CREATE SCHEMA,core,01_create_database.sql,11,2,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,Partial,50%,0
+85141c89-454c-4332-ac2a-5a045f33db04,SQL,DATABASE,CREATE DATABASE,financial_system,01_create_database.sql,6,1,1,0,0,Medium,N/A,SSC-EWI-0073,N/A,N/A,NotSupported,0%,0

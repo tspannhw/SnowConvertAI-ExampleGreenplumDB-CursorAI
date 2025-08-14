@@ -1,0 +1,1 @@
+{"sourcePlatform":"greenplum","conversionOptions":{"encoding":"65001","targetLag":"TargetLag","targetLagNumber":"1","targetLagTime":"days","warehouse":"UPDATE_DUMMY_WAREHOUSE","conversionRateMode":"LoC"}}

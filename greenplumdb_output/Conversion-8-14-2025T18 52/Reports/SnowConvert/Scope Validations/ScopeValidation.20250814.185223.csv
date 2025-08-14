@@ -1,0 +1,20 @@
+File Path/Name,File Size,Reason
+01_create_database.sql,1.3 KB,Encoding (BOM not found)
+02_core_tables.sql,12.5 KB,Encoding (BOM not found)
+03_trading_tables.sql,14.6 KB,Encoding (BOM not found)
+04_risk_compliance_tables.sql,17.2 KB,Encoding (BOM not found)
+05_loan_credit_tables.sql,19.7 KB,Encoding (BOM not found)
+06_analytics_payment_tables.sql,20.0 KB,Encoding (BOM not found)
+07_remaining_tables.sql,27.7 KB,Encoding (BOM not found)
+08_stored_procedures.sql,26.0 KB,Encoding (BOM not found)
+09_views.sql,21.0 KB,Encoding (BOM not found)
+10_indexes_constraints.sql,22.2 KB,Encoding (BOM not found)
+11_sample_data.sql,25.4 KB,Encoding (BOM not found)
+12_deployment_setup.sql,14.0 KB,Encoding (BOM not found)
+13_generate_bulk_data.sql,22.5 KB,Encoding (BOM not found)
+14_csv_export_scripts.sql,19.7 KB,Encoding (BOM not found)
+deploy.sh,13.4 KB,File Type
+export_data.py,7.5 KB,File Type
+export_data.sh,8.0 KB,File Type
+README.md,14.1 KB,File Type
+storage,56.0 KB,File Type

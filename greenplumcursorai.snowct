@@ -1,0 +1,133 @@
+{
+    "name": "greenplumcursorai",
+    "guid": "e135ea7e-524d-426f-a109-160da9ac0074",
+    "inputPath": "/Users/tspann/Downloads/code/cursorai/greenplumdatabase",
+    "outputPath": "/Users/tspann/Downloads/code/greenplumdb_output",
+    "projectInputPath": "",
+    "repointingPath": "",
+    "replatformingPath": "",
+    "connectionMappingsPath": "/var/folders/r0/v5b3ymjx2kj9nf26pmtv2rcr0000gn/T/snowconvert-connection-mappings/e135ea7e-524d-426f-a109-160da9ac0074/connection-mappings.csv",
+    "migrationContextPath": "",
+    "platform": "SnowConvert-Greenplum",
+    "accesscode": "a901f328-f738-4c21-b2c9-6e742a80b264",
+    "assessmentAccesscode": "",
+    "isDemo": false,
+    "steps": [
+        {
+            "name": "Project Creation",
+            "status": 1,
+            "active": false,
+            "disabled": false,
+            "steps": []
+        },
+        {
+            "name": "Extraction",
+            "status": 1,
+            "active": false,
+            "disabled": false,
+            "steps": []
+        },
+        {
+            "name": "Conversion",
+            "status": 0,
+            "active": true,
+            "disabled": false,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 1,
+                    "disabled": false,
+                    "active": false,
+                    "expandOptions": {
+                        "isExpandable": true,
+                        "expand": true
+                    }
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": false,
+                    "active": true,
+                    "expandOptions": {
+                        "isExpandable": true,
+                        "expand": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Deployment",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "steps": []
+        },
+        {
+            "name": "Data Migration",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 0,
+                    "disabled": true,
+                    "active": false
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": true,
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": "Data Validation",
+            "status": 0,
+            "active": false,
+            "disabled": true,
+            "preview": true,
+            "steps": [
+                {
+                    "name": "Execution",
+                    "status": 0,
+                    "disabled": true,
+                    "active": false
+                },
+                {
+                    "name": "Results",
+                    "status": 0,
+                    "disabled": true,
+                    "active": true
+                }
+            ]
+        }
+    ],
+    "conversionSettings": {
+        "sourcePlatform": "greenplum",
+        "conversionOptions": {
+            "encoding": "65001",
+            "targetLag": "TargetLag",
+            "targetLagNumber": "1",
+            "targetLagTime": "days",
+            "warehouse": "UPDATE_DUMMY_WAREHOUSE",
+            "conversionRateMode": "LoC"
+        }
+    },
+    "internalProcessInputPath": "",
+    "internalAssessmentOutputPath": "",
+    "internalConversionOutputPath": "/Users/tspann/Downloads/code/greenplumdb_output/Conversion-8-14-2025T18 52",
+    "customerData": {
+        "company": "Snowflake",
+        "email": "tim.spann@snowflake.com"
+    },
+    "conversionProgress": {
+        "isSuccessful": true
+    },
+    "customInputPaths": {
+        "assessment": "",
+        "conversion": ""
+    },
+    "projectRootPath": ""
+}
