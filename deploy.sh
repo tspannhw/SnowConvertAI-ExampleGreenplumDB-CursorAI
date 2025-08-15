@@ -9,7 +9,7 @@ set -e  # Exit on any error
 DB_HOST="localhost"
 DB_PORT="5432"
 DB_NAME="financial_system"
-DB_USER="postgres"
+DB_USER="greenplum"
 DB_PASSWORD=""
 LOG_FILE="deployment_$(date +%Y%m%d_%H%M%S).log"
 GENERATE_DATA="true"
@@ -70,8 +70,8 @@ Greenplum Financial System Database Deployment Script
 OPTIONS:
     --host HOST           Database host (default: localhost)
     --port PORT           Database port (default: 5432)
-    --user USER           Database user (default: postgres)
-    --password PASS       Database password (default: empty)
+    --user USER           Database user (default: greenplum)
+    --password PASS       Database password (default: )
     --database DB         Database name (default: financial_system)
     --no-data            Skip bulk data generation
     --export-csv         Export data to CSV after deployment
@@ -84,7 +84,7 @@ EXAMPLES:
     $0
 
     # Custom database settings
-    $0 --host myserver --port 5433 --user myuser --password mypass
+    $0 --host myserver --port 5433 --user $a --password $b
 
     # Clean installation with CSV export
     $0 --clean --export-csv
