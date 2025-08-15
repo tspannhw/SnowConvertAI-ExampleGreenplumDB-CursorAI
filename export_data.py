@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 
 def export_tables(host='localhost', port='5432', database='financial_system', 
-                 user='postgres', password='', export_dir='/tmp/financial_system_export'):
+                 user='greenplum', password='', export_dir='/tmp/financial_system_export'):
     """
     Export all tables from the financial system database to CSV files
     
