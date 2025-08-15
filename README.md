@@ -15,6 +15,7 @@ A comprehensive financial system database architecture designed for Greenplum, f
 - [Performance](#performance)
 - [Security](#security)
 - [Contributing](#contributing)
+- [SnowConvertAI](#conversion)
 - [License](#license)
 
 ## 🎯 Overview
@@ -485,6 +486,24 @@ greenplumdatabase/
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
+
+## 🤖 Conversion
+
+<img width="3782" height="2038" alt="image" src="https://github.com/user-attachments/assets/0ad269c0-2d93-4de3-b469-741bddbf9d07" />
+
+<img width="3330" height="1913" alt="image" src="https://github.com/user-attachments/assets/2530f046-32ce-4bd2-801b-38b665acb363" />
+
+<img width="3774" height="2059" alt="image" src="https://github.com/user-attachments/assets/f7fda25c-09ec-4b20-894e-7f80d3526f3b" />
+
+<img width="3099" height="1633" alt="image" src="https://github.com/user-attachments/assets/ec0d8075-be8f-491c-9719-5223c7c30269" />
+
+<img width="3117" height="1505" alt="image" src="https://github.com/user-attachments/assets/44c32d47-c967-41cc-8fd0-91bb2ebf7877" />
+
+<img width="3107" height="1478" alt="image" src="https://github.com/user-attachments/assets/61a9f0c0-a2c0-4e2b-a596-04472d8155c3" />
+
+<img width="3176" height="1512" alt="image" src="https://github.com/user-attachments/assets/25d200dd-44c3-4aa8-ae8c-ea49d78a47b7" />
+
+
 
 ## 📄 License
 
